@@ -44,12 +44,12 @@ export const NavBar = (props) => {
       <HideOnScroll {...props}>
         <Motion.div
           initial={{
-            backgroundColor: "rgba(255, 255, 255, 0)",
+            backgroundColor: "rgb(46, 62, 165)",
             boxShadow: "none",
           }}
           animate={{
             backgroundColor: scrolled
-              ? "rgb(0, 0, 0)"
+              ? "rgb(46, 62, 165)"
               : "rgba(255, 255, 255, 0)",
             boxShadow: scrolled
               ? "0 0 1em 0.25em #121212, 0 0 rgb(0 0 0), 0 0 0.75em 0.25em rgb(255 255 255)"
@@ -90,19 +90,19 @@ export const NavBar = (props) => {
                     }}
                     whileHover={{
                       backgroundColor: scrolled
-                        ? "rgba(255, 255, 255, 0)"
+                        ? "rgb(255, 255, 255)"
                         : "rgba(0, 21, 155, 0.5)",
                       transition: { duration: 0.1, ease: "easeInOut" },
                     }}
                     transition={{ duration: 0.5, ease: "easeInOut" }}
                   >
                     <Motion.p
-                      initial={{ color: "rgb(0, 0, 0)" }}
+                      initial={{ color: "#000000" }}
                       animate={{
                         color: scrolled ? "rgb(255, 255, 255)" : "rgb(0, 0, 0)",
                       }}
                       whileHover={{
-                        color: scrolled ? "#b0976d" : "#ffffff",
+                        color: scrolled ? "#000000" : "#ffffff",
                         transition: { duration: 0.1, ease: "easeInOut" },
                       }}
                       transition={{ duration: 0.5, ease: "easeInOut" }}
