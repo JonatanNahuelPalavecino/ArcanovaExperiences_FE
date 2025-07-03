@@ -1,0 +1,49 @@
+.experiences {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #1f4ac2;
+  padding: 2rem 0;
+
+  &-title {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 3rem;
+    margin: 4rem;
+
+    & > strong {
+      font-size: 3.5rem;
+    }
+  }
+
+  &-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem 0 0;
+
+    &Title {
+      font-family: "Poppins", sans-serif;
+      font-size: 2.5rem;
+      color: white;
+      margin: 1rem 0;
+    }
+
+    &Box {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.5rem;
+      margin: 1rem;
+    }
+  }
+}
+
+.tours-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); // 4 columnas
+  grid-auto-rows: 300px; // alto base
+  gap: 1.5rem;
+}
