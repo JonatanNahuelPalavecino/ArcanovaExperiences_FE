@@ -22,7 +22,7 @@ export const Contact = () => {
           <Whatsapp style={style} />
           Whatsapp
         </a>
-        <a href="" target="_blank" rel="noreferrer" className="contact-btn">
+        <a href="https://www.instagram.com/arcanova.experience/" target="_blank" rel="noreferrer" className="contact-btn">
           <Instagram style={style} />
           Instagram
         </a>
