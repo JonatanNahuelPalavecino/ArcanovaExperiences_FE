@@ -7,6 +7,7 @@ import { Testimonials } from "./components/Testimonials/Testimonials";
 import { WhatsappComponent } from "./components/WhatsappComponent/WhatsappComponent";
 import "./App.scss";
 import { Contact } from "./components/Contact/Contact";
+import { Footer } from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Experiences/>
         <Testimonials/>
         <Contact/>
+        <Footer/>
         <WhatsappComponent/>
       </BrowserRouter>
     </>
