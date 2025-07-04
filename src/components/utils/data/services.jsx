@@ -150,7 +150,7 @@ export const services = [
     foto: atv_aventura
   },
   {
-    type: "tour",
+    type: "private_tour",
     name: "Bacalar",
     description: "Visit the iconic ruins of Tulum by the sea and swim in a stunning cenote surrounded by jungle. Includes transportation, guide, and refreshments.",
     foto: bacalar_siete_colores
