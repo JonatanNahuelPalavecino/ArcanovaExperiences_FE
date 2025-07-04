@@ -1,0 +1,95 @@
+.testimonial-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4rem 0;
+}
+
+.testimonial-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+  margin: 2rem;
+
+  & > strong {
+    font-size: 3.5rem;
+  }
+}
+
+.testimonial-slider {
+  max-width: 750px;
+  margin: 1rem auto;
+}
+
+.testimonial-card {
+  background: white;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+}
+
+.testimonial-comment, .testimonial-name, .testimonial-tour {
+  font-family: "Poppins", sans-serif;
+}
+
+.testimonial-comment {
+  font-style: italic;
+  margin-bottom: 1.5rem
+}
+
+.testimonial-stars {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.75rem;
+}
+
+.star-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 3px;
+  color: #facc15; // yellow-400
+  fill: currentColor;
+}
+
+.testimonial-name {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #222;
+}
+
+.testimonial-tour {
+  font-size: 0.875rem;
+  color: #777;
+}
+
+.splide__pagination {
+  bottom: -2rem;
+}
+
+.splide__arrow > svg {
+  fill: #0b90fc;
+}
+
+.splide__arrow--next {
+  right: -2em;
+}
+
+.splide__arrow--prev {
+  left: -2em;
+}
+
+.splide__arrow:hover:not(:disabled) svg {
+  fill: #7a7a7a;
+}
+
+.splide__pagination__page.is-active {
+  background: #0060ae;
+}
+
+.splide__pagination__page:hover {
+  background: #013158;
+}

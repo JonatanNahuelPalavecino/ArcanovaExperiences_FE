@@ -2,6 +2,7 @@ import { CardExperience } from "../CardExperience/CardExperience";
 import AnimatedContainer from "../utils/otros/AnimatedContainer/AnimatedContainer";
 import { services } from "../utils/data/services";
 import "./Experiences.scss";
+import { Waves } from "../utils/otros/Waves/Waves";
 
 export const Experiences = () => {
   const privateExperiences = services.filter(
@@ -9,7 +10,12 @@ export const Experiences = () => {
   );
   const privateTours = services.filter((s) => s.type === "private_tour");
 
-  const gridStyles = [
+  const privateExperiencesStyles = [
+    { gridColumn: "1 / 3", gridRow: "1 / 2" },
+    { gridColumn: "3 / 5", gridRow: "1 / 3" },
+  ];
+
+  const privateToursStyles = [
     { gridColumn: "1 / 3", gridRow: "1 / 3" },
     { gridColumn: "3 / 5", gridRow: "1 / 2" },
     { gridColumn: "3 / 4", gridRow: "2 / 4" },
@@ -18,6 +24,8 @@ export const Experiences = () => {
     { gridColumn: "2 / 3", gridRow: "3 / 4" },
     { gridColumn: "1 / 3", gridRow: "4 / 5" },
     { gridColumn: "3 / 5", gridRow: "4 / 5" },
+    { gridColumn: "1 / 2", gridRow: "5 / 6" },
+    { gridColumn: "2 / 5", gridRow: "5 / 6" },
   ];
 
   return (
@@ -28,42 +36,54 @@ export const Experiences = () => {
       <div className="experiences-section">
         <h3 className="experiences-sectionTitle">Private Experiences</h3>
         <div className="experiences-sectionBox">
-          {privateExperiences.map((service, index) => (
-            <AnimatedContainer
-              key={service.name}
-              direction="bottom"
-              delay={index * 0.1}
-              backgroundColor={
-                service.name === "Cancún"
-                  ? "#C0C0C0"
-                  : "rgba(255, 255, 255, .5)"
-              }
-              boxShadow={service.name === "Cancún" ? "0 0 15px white" : "none"}
-            >
-              <CardExperience service={service} />
-            </AnimatedContainer>
-          ))}
+          {privateExperiences.map((service, index) => {
+            const style = privateExperiencesStyles[index] || {
+              gridColumn: "auto",
+              gridRow: "auto",
+            };
+
+            return (
+              <AnimatedContainer
+                key={service.name}
+                direction="bottom"
+                delay={index * 0.1}
+                backgroundColor={
+                  service.name === "Cancún"
+                    ? "#C0C0C0"
+                    : "rgba(255, 255, 255, .5)"
+                }
+                boxShadow={
+                  service.name === "Cancún" ? "0 0 15px white" : undefined
+                }
+                style={style}
+              >
+                <CardExperience service={service} />
+              </AnimatedContainer>
+            );
+          })}
         </div>
       </div>
       <div className="experiences-section">
+        <Waves/>
         <h3 className="experiences-sectionTitle">Private Tours</h3>
-        <div className="experiences-sectionBox tours-grid">
+        <div className="experiences-sectionBox">
           {privateTours.map((service, index) => {
-
-            const style = gridStyles[index] || {gridColumn: "auto", gridRow: "auto"}
+            const style = privateToursStyles[index] || {
+              gridColumn: "auto",
+              gridRow: "auto",
+            };
 
             return (
-            <AnimatedContainer
-              key={service.name}
-              direction="bottom"
-              delay={index * 0.1}
-              backgroundColor="rgb(255, 255, 255)"
-              boxShadow="none"
-              style={style}
-            >
-              <CardExperience service={service} />
-            </AnimatedContainer>
-            )
+              <AnimatedContainer
+                key={service.name}
+                direction="bottom"
+                delay={index * 0.1}
+                backgroundColor="rgba(255, 255, 255, .7)"
+                style={style}
+              >
+                <CardExperience service={service} />
+              </AnimatedContainer>
+            );
           })}
         </div>
       </div>

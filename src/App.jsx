@@ -1,9 +1,12 @@
 import { BrowserRouter } from "react-router-dom";
 import { NavBar } from "./components/NavBar/NavBar";
 import { Slider } from "./components/Slider/Slider";
-import "./App.scss";
 import { AboutUs } from "./components/AboutUs/AboutUs";
 import { Experiences } from "./components/Experiences/Experiences";
+import { Testimonials } from "./components/Testimonials/Testimonials";
+import { WhatsappComponent } from "./components/WhatsappComponent/WhatsappComponent";
+import "./App.scss";
+import { Contact } from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -13,6 +16,9 @@ function App() {
         <Slider />
         <AboutUs/>
         <Experiences/>
+        <Testimonials/>
+        <Contact/>
+        <WhatsappComponent/>
       </BrowserRouter>
     </>
   );
