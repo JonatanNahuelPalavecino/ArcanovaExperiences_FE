@@ -38,22 +38,22 @@ export const Footer = () => {
         <ul className="footer-column">
           <li className="footer-columnTitle">Explore Arcanova</li>
           <li className="footer-columnItem">
-            <a className="footer-columnLink" href="#">
+            <a className="footer-columnLink" href="#home">
               Home
             </a>
           </li>
           <li className="footer-columnItem">
-            <a className="footer-columnLink" href="#">
+            <a className="footer-columnLink" href="#about-us">
               About Us
             </a>
           </li>
           <li className="footer-columnItem">
-            <a className="footer-columnLink" href="#">
+            <a className="footer-columnLink" href="#experiences">
               Experiences
             </a>
           </li>
           <li className="footer-columnItem">
-            <a className="footer-columnLink" href="#">
+            <a className="footer-columnLink" href="#testimonials">
               Testimonial
             </a>
           </li>

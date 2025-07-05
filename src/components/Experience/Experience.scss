@@ -1,0 +1,22 @@
+.slider-container {
+  padding: 0 !important;
+}
+
+.slider-img {
+  width: 100%;
+  height: 100vh;
+}
+
+.slider-content {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.slider-media {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  min-height: 100%;
+  aspect-ratio: 16 / 9;
+}

@@ -29,7 +29,7 @@ export const Experiences = () => {
   ];
 
   return (
-    <section className="experiences">
+    <section id="experiences" className="experiences">
       <h2 className="experiences-title">
         Our <strong style={{ color: "rgb(0, 160, 239)" }}>Experiences</strong>
       </h2>

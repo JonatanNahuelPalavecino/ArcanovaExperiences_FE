@@ -6,7 +6,7 @@ import { WaveLines } from "../utils/otros/WaveLines/WaveLines";
 
 export const AboutUs = () => {
   return (
-    <section className="about">
+    <section id="about-us" className="about">
       <h2 className="about-title">
         Experience Mexico with the Comfort
         <strong style={{color: "#6679db", display: "block"}}> You Deserve</strong>

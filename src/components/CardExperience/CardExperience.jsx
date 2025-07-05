@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./CardExperience.scss"
 
 export const CardExperience = ({service}) => {
@@ -7,7 +8,7 @@ export const CardExperience = ({service}) => {
         <img src={service.foto} alt={service.name} className="card-image" />
         <div className="overlay">
           <p className="description">{service.description}</p>
-          <button className="view-more">View More</button>
+          <Link to={`/${service.path}`} className="view-more">View More</Link>
         </div>
       </div>
       <h3 className="card-title" style={service.type === "private_tour" ? {color: "black"} : undefined}>{service.name}</h3>
