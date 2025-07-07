@@ -11,6 +11,7 @@ import HomeIcon from "@mui/icons-material/Home";
 import CommentIcon from "@mui/icons-material/Comment";
 import logo from "../../assets/images/logo.png";
 import "./NavBar.scss";
+import { handleScrollOrNavigate } from "../utils/otros/handleScrollOrNavigate";
 
 export const NavBar = (props) => {
   const [open, setOpen] = useState(false);
@@ -24,17 +25,6 @@ const navItems = [
   { id: "experiences", name: "Experiences", icon: () => <WineBarIcon /> },
   { id: "testimonials", name: "Testimonials", icon: () => <ShoppingCartIcon /> },
 ];
-
-const handleScrollOrNavigate = (id) => {
-  if (location.pathname !== "/") {
-    navigate("/", { state: { scrollTo: id } });
-  } else {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  }
-};
 
   return (
     <>
@@ -57,9 +47,9 @@ const handleScrollOrNavigate = (id) => {
         >
           <div className="nav-content">
             <div className="nav-logo">
-              <Link className="nav-imgBox" to="/">
+              <div className="nav-imgBox" onClick={() => handleScrollOrNavigate("home", navigate, location)}>
                 <img className="nav-img" src={logo} alt="logo" />
-              </Link>
+              </div>
               <div>
                 <p className="nav-text">Arcanova Experiences</p>
                 <p className="nav-subText">Travel Agency</p>
@@ -69,7 +59,7 @@ const handleScrollOrNavigate = (id) => {
               {navItems.map((item) => (
                 <div
                   key={item.name}
-                  onClick={() => handleScrollOrNavigate(item.id)}
+                  onClick={() => handleScrollOrNavigate(item.id, navigate, location)}
                 >
                   <Motion.div
                     initial={{

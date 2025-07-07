@@ -1,22 +1,165 @@
-.slider-container {
-  padding: 0 !important;
-}
-
-.slider-img {
-  width: 100%;
-  height: 100vh;
-}
-
-.slider-content {
+.experience {
   position: relative;
-  width: 100%;
-  height: 100vh;
-}
 
-.slider-media {
-  width: 100%;
-  height: 100vh;
-  object-fit: cover;
-  min-height: 100%;
-  aspect-ratio: 16 / 9;
+  &-slider {
+    padding: 0 !important;
+  }
+
+  &-sliderImg {
+    width: 100%;
+    height: 100vh;
+  }
+
+  &-sliderContent {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+  }
+
+  &-sliderMedia {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    min-height: 100%;
+    aspect-ratio: 16 / 9;
+  }
+
+  &-title {
+    position: absolute;
+    top: 6rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 3rem;
+    text-shadow: 0 0 5px black;
+    margin: 2rem;
+  }
+
+  &-description {
+    width: 80%;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    padding: 1rem;
+    margin: 2rem auto;
+  }
+
+  &-include {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &Title {
+      font-family: "Poppins", sans-serif;
+      margin: 1rem;
+    }
+
+    &Section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      gap: 2rem;
+      margin: 2rem 0;
+    }
+
+    &Card {
+      width: 350px;
+      margin: 1rem;
+
+      &Title {
+        font-family: "Poppins", sans-serif;
+        margin: 1rem 0;
+      }
+
+      &Description {
+        font-family: "Poppins", sans-serif;
+        letter-spacing: 1px;
+        padding: 1rem 0;
+      }
+    }
+  }
+
+  &-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &Title {
+      font-family: "Poppins", sans-serif;
+      margin: 1rem;
+    }
+
+    &Section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      gap: 2rem;
+      margin: 2rem 0;
+    }
+
+    &Card {
+      width: 350px;
+      margin: 1rem;
+
+      &Title {
+        font-family: "Poppins", sans-serif;
+        margin: 1rem 0;
+      }
+
+      &Description {
+        font-family: "Poppins", sans-serif;
+        letter-spacing: 1px;
+        padding: 1rem 0;
+      }
+
+      &Duration {
+        font-family: "Poppins", sans-serif;
+        font-style: italic;
+        font-size: 0.8rem;
+      }
+    }
+  }
+
+  &-fleet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &Title {
+      font-family: "Poppins", sans-serif;
+      margin: 1rem;
+    }
+  }
+
+  &-cta {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+
+    &Title {
+      font-family: "Poppins", sans-serif;
+      font-size: 3rem;
+      margin: 2rem;
+
+      & > strong {
+        font-size: 3.5rem;
+      }
+    }
+
+    &Button {
+      margin: 0.5rem;
+      padding: 0.5rem 1rem;
+      border: none;
+      background: #00a0ef;
+      font-family: "Poppins", sans-serif;
+      text-decoration: none;
+      font-size: 2rem;
+      color: white;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  }
 }
