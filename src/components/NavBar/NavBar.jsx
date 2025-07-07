@@ -9,7 +9,7 @@ import { Sidebar } from "../Sidebar/Sidebar";
 import WineBarIcon from "@mui/icons-material/WineBar";
 import HomeIcon from "@mui/icons-material/Home";
 import CommentIcon from "@mui/icons-material/Comment";
-import logo from "../../assets/images/logo.png";
+import logo from "../../assets/images/logo.PNG";
 import "./NavBar.scss";
 import { handleScrollOrNavigate } from "../utils/otros/handleScrollOrNavigate";
 
