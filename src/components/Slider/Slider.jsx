@@ -44,7 +44,7 @@ export const Slider = () => {
   }, []);
 
   return (
-    <div className="slider">
+    <div id="home" className="slider">
       <Splide
         ref={splideRef}
         className="slider-container"

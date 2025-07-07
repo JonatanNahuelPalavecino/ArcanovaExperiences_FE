@@ -1,8 +1,12 @@
+import { useLocation, useNavigate } from "react-router-dom";
 import logo from "../../assets/images/logo.png";
 import "./Footer.scss";
+import { handleScrollOrNavigate } from "../utils/otros/handleScrollOrNavigate";
 
 export const Footer = () => {
   const year = new Date().getFullYear();
+  const navigate = useNavigate()
+  const location = useLocation()
 
   return (
     <footer className="footer">
@@ -38,22 +42,22 @@ export const Footer = () => {
         <ul className="footer-column">
           <li className="footer-columnTitle">Explore Arcanova</li>
           <li className="footer-columnItem">
-            <a className="footer-columnLink" href="#">
+            <a className="footer-columnLink" onClick={() => handleScrollOrNavigate("home", navigate, location)}>
               Home
             </a>
           </li>
           <li className="footer-columnItem">
-            <a className="footer-columnLink" href="#">
+            <a className="footer-columnLink" onClick={() => handleScrollOrNavigate("about-us", navigate, location)}>
               About Us
             </a>
           </li>
           <li className="footer-columnItem">
-            <a className="footer-columnLink" href="#">
+            <a className="footer-columnLink" onClick={() => handleScrollOrNavigate("experiences", navigate, location)}>
               Experiences
             </a>
           </li>
           <li className="footer-columnItem">
-            <a className="footer-columnLink" href="#">
+            <a className="footer-columnLink" onClick={() => handleScrollOrNavigate("testimonials", navigate, location)}>
               Testimonial
             </a>
           </li>
