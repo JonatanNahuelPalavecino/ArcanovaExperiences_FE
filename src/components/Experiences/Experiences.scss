@@ -1,0 +1,44 @@
+.experiences {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #1f4ac2;
+  padding: 2rem 0 0;
+
+  &-title {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 3rem;
+    margin: 4rem;
+
+    & > strong {
+      font-size: 3.5rem;
+    }
+  }
+
+  &-section {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem 0 0;
+    z-index: 0;
+
+    &Title {
+      font-family: "Poppins", sans-serif;
+      font-size: 2.5rem;
+      color: white;
+      margin: 1rem 0;
+    }
+
+    &Box {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-auto-rows: 300px;
+      gap: 1.5rem;
+      margin: 4rem;
+    }
+  }
+}
