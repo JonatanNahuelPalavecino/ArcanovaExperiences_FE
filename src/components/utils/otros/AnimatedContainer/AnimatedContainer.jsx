@@ -25,10 +25,10 @@ const AnimatedContainer = ({
   backgroundColor = '#fff',
   borderRadius = '8px',
   boxShadow = '0 4px 12px rgba(0, 0, 0, 0.1)',
-  style = {}
+  style = ''
 }) => {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: '-100px' }); // `once: true` = solo una vez
+  const isInView = useInView(ref, { once: true, margin: '-100px' });
 
   const variants = getVariants(direction);
 
@@ -39,8 +39,8 @@ const AnimatedContainer = ({
       initial="hidden"
       animate={isInView ? 'visible' : 'hidden'}
       transition={{ duration, delay }}
-      className="animated-container"
-      style={{ backgroundColor, borderRadius, boxShadow, ...style }}
+      className={`animated-container ${style}`}
+      style={{ backgroundColor, borderRadius, boxShadow }}
     >
       {children}
     </Motion.div>

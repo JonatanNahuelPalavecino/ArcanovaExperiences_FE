@@ -60,15 +60,15 @@
     overflow: hidden;
 
     @media (max-width: 992px) {
-      font-size: 2.5rem;
+      font-size: 1.8rem;
     }
     @media (max-width: 768px) {
-      font-size: 2rem;
-      height: 2rem;
+      font-size: 1.6rem;
+      // height: 2rem;
     }
     @media (max-width: 650px) {
-      font-size: 1.2rem;
-      height: 1.2rem;
+      font-size: 1.4rem;
+      // height: 1.2rem;
     }
   }
 
@@ -85,15 +85,16 @@
     line-height: 4rem;
 
     @media (max-width: 992px) {
-      font-size: 4.5rem;
+      font-size: 3.5rem;
     }
     @media (max-width: 768px) {
-      font-size: 4rem;
-      height: 4rem;
+      font-size: 3.2rem;
+      // height: 4rem;
     }
     @media (max-width: 650px) {
-      font-size: 2rem;
-      height: 2rem;
+      font-size: 2.8rem;
+      // height: 2rem;
+      line-height: 3rem;
     }
   }
 }

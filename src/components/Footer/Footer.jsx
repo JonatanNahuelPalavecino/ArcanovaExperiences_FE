@@ -23,9 +23,9 @@ export const Footer = () => {
               Click here for our chat
             </a>
           </li>
-          <li className="footer-columnItem">Cancún- México</li>
+          <li className="footer-columnItem">Cancún - México</li>
           <li className="footer-columnItem">
-            Customer service available Monday <br /> through Sunday, 7 AM to 7
+            Customer service available Monday <br/> through Sunday, 7 AM to 7
             PM
           </li>
           <li className="footer-columnItem">

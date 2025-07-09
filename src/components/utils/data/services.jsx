@@ -175,7 +175,7 @@ export const services = [
   {
     type: "private_experiences",
     path: "puerto-aventura",
-    name: "Puerto Aventura",
+    name: "Yatch from Puerto Aventura to Cozumel",
     description: "Private sailing experience from Puerto aventura to Cozumel.",
     foto: puerto_aventura_logo,
     images: [p_a_1, p_a_2, p_a_3, p_a_4, p_a_5],
@@ -306,7 +306,7 @@ export const services = [
   {
     type: "private_experiences",
     path: "cancun",
-    name: "Cancún",
+    name: "Yatch from Cancún to Isla Mujeres",
     description:
       "Private luxury yacht experience from Cancún to Isla Mujeres. Enjoy Playa Norte, Punta Sur, snorkeling, music, drinks, and top-tier service aboard exclusive vessels.",
     foto: cancun_logo,

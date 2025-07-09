@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #1f4ac2;
+  background: #7A91FF;
   padding: 2rem 0 0;
 
   &-title {
@@ -12,8 +12,16 @@
     font-size: 3rem;
     margin: 4rem;
 
-    & > strong {
-      font-size: 3.5rem;
+    @media (max-width: 768px) {
+      font-size: 2.4rem;
+    }
+
+    @media (max-width: 550px) {
+      margin: 2rem 0 0;
+    }
+
+    &At {
+      color: #0033CC;
     }
   }
 
@@ -25,20 +33,38 @@
     align-items: center;
     margin: 3rem 0 0;
     z-index: 0;
+    
+    @media (max-width: 550px) {
+      margin: 2rem 0 0;
+    }
 
     &Title {
       font-family: "Poppins", sans-serif;
-      font-size: 2.5rem;
+      font-size: 2.2rem;
       color: white;
       margin: 1rem 0;
+
+      @media (max-width: 768px) {
+        font-size: 1.8rem;
+      }
     }
 
     &Box {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      grid-auto-rows: 300px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
       gap: 1.5rem;
       margin: 4rem;
+    }
+
+    &Card {
+      width: 45%;
+      height: 500px;
+
+      @media (max-width: "992px") {
+        width: 100%;
+        height: 400px;
+      }
     }
   }
 }

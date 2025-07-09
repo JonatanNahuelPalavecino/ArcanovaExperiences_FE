@@ -5,21 +5,43 @@
   &-title {
     position: absolute;
     top: 1.5rem;
+    left: 5px;
     min-width: 320px;
     font-family: "Poppins", sans-serif;
     font-size: 1.5rem;
     color: white;
     background-image: linear-gradient(290deg, #ffffff00 25%, #4d72e2 0%);
     padding: 0.5rem 1rem;
+    z-index: 1;
+
+    &::after {
+      content: "";
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 0 27.5px 25px 0;
+      border-color: transparent #264cbd transparent transparent;
+      position: absolute;
+      bottom: -25px;
+      left: 0;
+      z-index: 1;
+    }
   }
 
   &-images {
+    background-color: #271578;
+    padding: 1rem 2rem;
+  }
+
+  &-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: 150px;
     gap: 0.5rem;
-    background-color: #271578;
-    padding: 1rem 2rem;
+
+    @media (max-width: 768px) {
+      display: none;
+    }
   }
 
   &-img {
@@ -27,6 +49,25 @@
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
+
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  &-carousel {
+    display: none;
+
+    @media (max-width: 768px) {
+      display: block;
+    }
+
+    .splide__slide img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
   }
 
   &-info {
@@ -41,7 +82,7 @@
       font-family: "Poppins", sans-serif;
       font-size: 1.5rem;
       color: white;
-      margin: 1rem;
+      margin: 0 0 1rem;
     }
 
     &Container {
@@ -68,7 +109,7 @@
         height: 2px;
         border: none;
         background-color: white;
-        margin: 0 0 1rem ;
+        margin: 0 0 1rem;
       }
 
       &Description {
