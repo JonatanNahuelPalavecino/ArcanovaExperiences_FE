@@ -105,11 +105,11 @@ import el_cielo_cozumel_logo from "../../../assets/images/private_tours/el_cielo
 import el_cielo_1 from "../../../assets/images/private_tours/el_cielo_cozumel/1_el_cielo.jpg";
 import el_cielo_2 from "../../../assets/images/private_tours/el_cielo_cozumel/2_el_cielo.jpg";
 import el_cielo_3 from "../../../assets/images/private_tours/el_cielo_cozumel/3_el_cielo.jpg";
-import el_cielo_4 from "../../../assets/images/private_tours/el_cielo_cozumel/4_el_cielo.jpg";
+import el_cielo_4 from "../../../assets/images/private_tours/el_cielo_cozumel/4_el_cielo.JPG";
 import el_cielo_5 from "../../../assets/images/private_tours/el_cielo_cozumel/5_el_cielo.jpg";
 import el_cielo_6 from "../../../assets/images/private_tours/el_cielo_cozumel/6_el_cielo.jpg";
 import el_cielo_7 from "../../../assets/images/private_tours/el_cielo_cozumel/7_el_cielo.jpg";
-import el_cielo_8 from "../../../assets/images/private_tours/el_cielo_cozumel/8_el_cielo.jpg";
+import el_cielo_8 from "../../../assets/images/private_tours/el_cielo_cozumel/8_el_cielo.JPG";
 
 import holbox_magico_logo from "../../../assets/images/private_tours/holbox_magico/4_holbox.jpg";
 
@@ -140,7 +140,7 @@ import isla_mujeres_3 from "../../../assets/images/private_tours/isla_mujeres_de
 import isla_mujeres_4 from "../../../assets/images/private_tours/isla_mujeres_deluxe/4_isla.jpg";
 import isla_mujeres_5 from "../../../assets/images/private_tours/isla_mujeres_deluxe/5_isla.jpg";
 import isla_mujeres_6 from "../../../assets/images/private_tours/isla_mujeres_deluxe/6_isla.jpg";
-import isla_mujeres_7 from "../../../assets/images/private_tours/isla_mujeres_deluxe/7_isla.jpg";
+import isla_mujeres_7 from "../../../assets/images/private_tours/isla_mujeres_deluxe/7_isla.JPG";
 
 import lugares_secretos_logo from "../../../assets/images/private_tours/lugares_secretos/4_lugares.jpg";
 
@@ -175,7 +175,7 @@ export const services = [
   {
     type: "private_experiences",
     path: "puerto-aventura",
-    name: "Puerto Aventura",
+    name: "Yatch from Puerto Aventura to Cozumel",
     description: "Private sailing experience from Puerto aventura to Cozumel.",
     foto: puerto_aventura_logo,
     images: [p_a_1, p_a_2, p_a_3, p_a_4, p_a_5],
@@ -306,7 +306,7 @@ export const services = [
   {
     type: "private_experiences",
     path: "cancun",
-    name: "Cancún",
+    name: "Yatch from Cancún to Isla Mujeres",
     description:
       "Private luxury yacht experience from Cancún to Isla Mujeres. Enjoy Playa Norte, Punta Sur, snorkeling, music, drinks, and top-tier service aboard exclusive vessels.",
     foto: cancun_logo,

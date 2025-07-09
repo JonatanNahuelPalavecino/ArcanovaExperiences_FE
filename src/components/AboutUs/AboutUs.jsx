@@ -9,7 +9,7 @@ export const AboutUs = () => {
     <section id="about-us" className="about">
       <h2 className="about-title">
         Experience Mexico with the Comfort
-        <strong style={{color: "#6679db", display: "block"}}> You Deserve</strong>
+        <strong className="about-titleAt"> You Deserve</strong>
       </h2>
       <div className="about-container">
         <AnimatedContainer
@@ -17,6 +17,7 @@ export const AboutUs = () => {
           backgroundColor="rgba(0, 0, 0, 0)"
           borderRadius="none"
           boxShadow="none"
+          style="about-textBox"
         >
           <p className="about-text">
             At Arcanova Experiences, we specialize in creating unforgettable,
@@ -24,7 +25,7 @@ export const AboutUs = () => {
           </p>
         </AnimatedContainer>
         <div className="about-box">
-          <WaveLines />
+          {/* <WaveLines /> */}
           <AnimatedContainer
             direction="left"
             backgroundColor="rgba(255, 255, 255, 0.9)"

@@ -1,14 +1,14 @@
 import { useState } from "react";
 import { Link, useNavigate, useLocation } from "react-router-dom";
-import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import { motion as Motion } from "framer-motion";
 import { HideOnScroll } from "./HideOnScroll";
 import { useNavbarScroll } from "../Hooks/useNavbarScroll";
 import MenuIcon from "@mui/icons-material/Menu";
+import SailingIcon from '@mui/icons-material/Sailing'
 import { Sidebar } from "../Sidebar/Sidebar";
-import WineBarIcon from "@mui/icons-material/WineBar";
+import GroupIcon from '@mui/icons-material/Group'
 import HomeIcon from "@mui/icons-material/Home";
-import CommentIcon from "@mui/icons-material/Comment";
+import ReviewsIcon from '@mui/icons-material/Reviews'
 import logo from "../../assets/images/logo.PNG";
 import "./NavBar.scss";
 import { handleScrollOrNavigate } from "../utils/otros/handleScrollOrNavigate";
@@ -21,9 +21,9 @@ export const NavBar = (props) => {
 
 const navItems = [
   { id: "home", name: "Home", icon: () => <HomeIcon /> },
-  { id: "about-us", name: "About us", icon: () => <CommentIcon /> },
-  { id: "experiences", name: "Experiences", icon: () => <WineBarIcon /> },
-  { id: "testimonials", name: "Testimonials", icon: () => <ShoppingCartIcon /> },
+  { id: "about-us", name: "About us", icon: () => <GroupIcon /> },
+  { id: "experiences", name: "Experiences", icon: () => <SailingIcon /> },
+  { id: "testimonials", name: "Testimonials", icon: () => <ReviewsIcon /> },
 ];
 
   return (
@@ -36,7 +36,7 @@ const navItems = [
           }}
           animate={{
             backgroundColor: scrolled
-              ? "rgb(46, 62, 165)"
+              ? "#000C66"
               : "rgba(255, 255, 255, 0)",
             boxShadow: scrolled
               ? "0 0 1em 0.25em #121212, 0 0 rgb(0 0 0), 0 0 0.75em 0.25em rgb(255 255 255)"

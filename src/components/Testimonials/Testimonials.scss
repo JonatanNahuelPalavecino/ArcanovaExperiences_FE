@@ -11,14 +11,49 @@
   font-size: 3rem;
   margin: 2rem;
 
-  & > strong {
+  @media (max-width: 992px) {
+    text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 2.4rem;
+  }
+
+  @media (max-width: 550px) {
+    font-size: 2rem;
+  }
+
+  &At {
+    display: block;
     font-size: 3.5rem;
+    color: rgb(77, 109, 255);
+    line-height: 3rem;
+
+    @media (max-width: 768px) {
+      font-size: 3rem;
+    }
+
+    @media (max-width: 550px) {
+      font-size: 2.5rem;
+    }
   }
 }
 
 .testimonial-slider {
   max-width: 750px;
   margin: 1rem auto;
+
+  @media (max-width: 992px) {
+    max-width: 650px;
+  }
+
+  @media (max-width: 768px) {
+    max-width: 450px;
+  }
+
+  @media (max-width: 550px) {
+    max-width: 350px;
+  }
 }
 
 .testimonial-card {
@@ -32,13 +67,15 @@
   margin: 2rem;
 }
 
-.testimonial-comment, .testimonial-name, .testimonial-tour {
+.testimonial-comment,
+.testimonial-name,
+.testimonial-tour {
   font-family: "Poppins", sans-serif;
 }
 
 .testimonial-comment {
   font-style: italic;
-  margin-bottom: 1.5rem
+  margin-bottom: 1.5rem;
 }
 
 .testimonial-stars {
@@ -51,7 +88,7 @@
   width: 20px;
   height: 20px;
   margin: 0 3px;
-  color: #facc15; // yellow-400
+  color: #facc15;
   fill: currentColor;
 }
 

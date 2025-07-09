@@ -3,8 +3,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: rgb(31, 74, 194);
-  padding: 2rem;
+  background: #00159b;
+  padding: 2rem 0 0;
 
   &-section {
     width: 100%;
@@ -12,6 +12,12 @@
     justify-content: space-around;
     align-items: flex-start;
     padding: 1rem;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
   }
 
   &-column {
@@ -19,6 +25,11 @@
     flex-direction: column;
     align-items: start;
     list-style-type: none;
+
+    @media (max-width: 768px) {
+      width: 300px;
+      align-items: center;
+    }
 
     &Title {
       font-family: "Poppins", sans-serif;
@@ -32,19 +43,32 @@
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       margin-bottom: 1rem;
+
+      @media (max-width: 550px) {
+        font-size: 1.2rem;
+      }
     }
 
     &Item {
       font-family: "Poppins", sans-serif;
       text-decoration: none;
       color: white;
-      margin: .5rem 0 0 .5rem;
+      margin: 0.5rem 0 0 0.5rem;
+
+      @media (max-width: 768px) {
+        text-align: center;
+      }
+
+      @media (max-width: 550px) {
+        font-size: 0.9rem;
+        margin: 0.2rem 0 0 0.5rem;
+      }
     }
 
     &Link {
       color: white;
-      text-decoration: none;;
-      transition: all .5s ease-in-out;
+      text-decoration: none;
+      transition: all 0.5s ease-in-out;
 
       &:hover {
         color: black;
@@ -55,6 +79,17 @@
   &-img {
     width: 150px;
     height: 150px;
+
+    @media (max-width: 768px) {
+      margin-top: 1rem;
+      width: 100px;
+      height: 100px;
+    }
+
+    @media (max-width: 550px) {
+      width: 75px;
+      height: 75px;
+    }
   }
 
   &-logo {
@@ -69,9 +104,9 @@
     font-size: 0.8rem;
     text-align: center;
     color: white;
-    border-top: .2rem solid rgb(0, 160, 239);
+    border-top: 0.2rem solid rgb(0, 160, 239);
     margin: 1rem 0;
-    padding-top: .5rem;
+    padding-top: 1rem;
   }
 
   &-prom {
@@ -82,13 +117,13 @@
     text-decoration: none;
     text-align: center;
     color: white;
-    margin: 1rem 0;
+    margin: 0 0 1rem 0;
 
     &Img {
       width: 25px;
       height: 25px;
       filter: invert(1);
-      margin: 0 .5rem;
+      margin: 0 0.5rem;
     }
   }
 }

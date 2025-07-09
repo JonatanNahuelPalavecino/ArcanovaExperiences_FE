@@ -54,6 +54,12 @@
   &:hover > svg {
     animation: 1s wiggle ease infinite;
   }
+
+  &Icon {
+    width: 40px;
+    height: 40px;
+    display: block;
+  }
 }
 
 @keyframes wiggle {
