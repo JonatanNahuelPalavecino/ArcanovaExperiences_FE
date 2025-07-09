@@ -8,7 +8,7 @@ import './Testimonials.scss';
 export const Testimonials = () => {
   return (
     <section id='testimonials' className="testimonial-section">
-      <h2 className="testimonial-title">Unforgettable Moments,<strong style={{color: "#6679db", display: "block"}}> Told by You</strong></h2>
+      <h2 className="testimonial-title">Unforgettable Moments,<strong className='testimonial-titleAt'> Told by You</strong></h2>
       <Splide
         options={{
           type: 'loop',

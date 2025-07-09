@@ -7,7 +7,7 @@ export const Instagram = ({style}) => {
       width="100"
       height="100"
       viewBox="0 0 48 48"
-      style={style}
+      className={style}
     >
       <radialGradient
         id="yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1"

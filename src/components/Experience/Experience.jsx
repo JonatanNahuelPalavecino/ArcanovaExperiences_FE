@@ -6,13 +6,15 @@ import "@splidejs/react-splide/css";
 import "@splidejs/react-splide/css/skyblue";
 import { CardFleet } from "../CardFleet/CardFleet";
 import AnimatedContainer from "../utils/otros/AnimatedContainer/AnimatedContainer";
+import PriorityHighIcon from '@mui/icons-material/PriorityHigh';
 import "./Experience.scss";
 
 export const Experience = () => {
   const { experience } = useParams();
 
   const e = services.find((e) => e.path === experience);
-  const { name, images, description, include, options, fleet } = e;
+  const { extra_fee_note, name, images, description, include, options, fleet } =
+    e;
 
   useEffect(() => {
     document.title = `${name} - Arcanova Experiences`;
@@ -105,10 +107,17 @@ export const Experience = () => {
         </section>
       )}
 
+      {extra_fee_note && (
+        <div className="experience-extra">
+          <PriorityHighIcon className="experience-extraIcon"/>
+          <p className="experience-extraText">{extra_fee_note}</p>
+        </div>
+      )}
+
       <section className="experience-cta">
         <h2 className="experience-ctaTitle">
           Ready for an{" "}
-          <strong style={{ color: "rgb(0, 160, 239)" }}>
+          <strong className="experience-ctaTitleAt">
             unforgettable experience?
           </strong>
         </h2>

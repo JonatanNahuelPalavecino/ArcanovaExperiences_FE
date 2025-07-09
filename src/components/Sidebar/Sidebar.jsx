@@ -6,16 +6,19 @@ import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import MenuOpenIcon from '@mui/icons-material/MenuOpen';
+import logo from "../../assets/images/logo.PNG"
 import "./Sidebar.scss"
+import { handleScrollOrNavigate } from "../utils/otros/handleScrollOrNavigate";
 
 export const Sidebar = ({ open, setOpen, navItems }) => {
   const navigate = useNavigate();
+  const location = useLocation()
 
   const navTo = (path) => {
     setOpen(!open)
-    navigate(path)
+    handleScrollOrNavigate(path, navigate, location)
   }
 
   const DrawerList = (
@@ -35,13 +38,13 @@ export const Sidebar = ({ open, setOpen, navItems }) => {
             disablePadding
             sx={{
               "&:hover": {
-                backgroundColor: "#b0976d", // color hover
+                backgroundColor: "#0033CC",
                 color: "#fff",
               },
-              color: "black", // color por defecto
+              color: "black",
             }}
           >
-            <ListItemButton onClick={() => navTo(item.path)}>
+            <ListItemButton onClick={() => navTo(item.id)}>
               <ListItemIcon sx={{minWidth: "40px"}}>{item.icon()}</ListItemIcon>
               <ListItemText primary={item.name} />
             </ListItemButton>
@@ -58,7 +61,7 @@ export const Sidebar = ({ open, setOpen, navItems }) => {
         <div className="sidebar-box">
           <img
             className="sidebar-img"
-            src="https://res.cloudinary.com/dabgfr6qn/image/upload/v1742325732/uploads/logo.png"
+            src={logo}
             alt="logo"
           />
           <p className="sidebar-text">Arcanova Experiences</p>
