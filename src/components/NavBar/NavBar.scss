@@ -16,9 +16,6 @@
     @media (max-width: 992px) {
       justify-content: center;
     }
-    @media (max-width: 450px) {
-      justify-content: flex-start;
-    }
   }
 
   &-logo {
@@ -29,21 +26,32 @@
   &-imgBox {
     width: 75px;
     height: 75px;
-    background: linear-gradient(90deg,rgba(0, 0, 0, 1) 0%, rgba(0, 21, 155, 1) 68%);
-    border-radius: 50%;
-    box-shadow: 0 0 2px white;
-    padding: .5rem;
-    margin: .5rem;
-    cursor: pointer
+    margin: 0.5rem;
+    cursor: pointer;
+
+    @media (max-width: 768px) {
+      width: 50px;
+      height: 50px;
+    }
   }
 
-  &-img {
+  &-img,
+  &-name {
     width: 100%;
     object-fit: cover;
+    filter: drop-shadow(2px 4px 6px black);
+  }
+
+  &-nameBox {
+    width: 200px;
+
+    @media (max-width: 768px) {
+      width: 135px;
+    }
   }
 
   &-text {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     letter-spacing: 1px;
     margin: 5px;
     font-size: 1.3rem;
@@ -55,8 +63,8 @@
   }
 
   &-subText {
-    font-family: 'Roboto', sans-serif;
-    font-size: .9rem;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.9rem;
     margin: 5px 0 0 10px;
     color: black;
     text-shadow: 0 0 2px white;
@@ -77,9 +85,9 @@
   &-item {
     text-transform: uppercase;
     color: white;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     transition: all 0.2s ease-in;
-    padding: .5rem;
+    padding: 0.5rem;
 
     &:hover {
       color: #b0976d;
@@ -95,10 +103,13 @@
   &-burger {
     position: absolute;
     top: 25%;
-    right: 0;
-    margin: .5rem;
+    right: 1rem;
+    margin: 0.5rem;
     @media (min-width: 993px) {
       display: none;
+    }
+    @media (max-width: 768px) {
+      top: 16%
     }
   }
 }

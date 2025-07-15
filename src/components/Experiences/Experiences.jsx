@@ -14,10 +14,10 @@ export const Experiences = () => {
   return (
     <section id="experiences" className="experiences">
       <h2 className="experiences-title">
-        Our <strong className="experiences-titleAt">Experiences</strong>
+        Our exclusive <strong className="experiences-titleAt">Experiences</strong>
       </h2>
       <div className="experiences-section">
-        <h3 className="experiences-sectionTitle">Private Experiences</h3>
+        <h3 className="experiences-sectionTitle">Yacht's Experiences</h3>
         <div className="experiences-sectionBox">
           {privateExperiences.map((service, index) => (
               <AnimatedContainer
@@ -35,7 +35,7 @@ export const Experiences = () => {
       </div>
       <div className="experiences-section">
         {/* <Waves/> */}
-        <h3 className="experiences-sectionTitle">Private Tours</h3>
+        <h3 className="experiences-sectionTitle">Private Adventures Tours</h3>
         <div className="experiences-sectionBox">
           {privateTours.map((service, index) =>  (
               <AnimatedContainer

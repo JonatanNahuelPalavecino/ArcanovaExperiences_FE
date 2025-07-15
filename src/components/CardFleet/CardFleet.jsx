@@ -53,26 +53,17 @@ export const CardFleet = ({ name, capacity, prices, images }) => {
             ))}
           </Splide>
         </div>
-      </div>
-
-      <div className="fleet-info">
-        <h4 className="fleet-infoTitle">Includes</h4>
-        <div className="fleet-infoContainer">
+        <div className="fleet-info">
           <div className="fleet-infoBox">
-            <h4 className="fleet-infoBoxTitle">Capacity</h4>
-            <hr className="fleet-infoBoxDivisor" />
-            <p className="fleet-infoBoxDescription">{capacity} people</p>
-          </div>
-          <div className="fleet-infoBox">
-            <h4 className="fleet-infoBoxTitle">Prices</h4>
-            <hr className="fleet-infoBoxDivisor" />
-            {Object.entries(prices).map(([time, price]) =>
-              price ? (
-                <p key={time} className="fleet-infoBoxDescription">
-                  {time.replace("_", " ")}: ${price} USD
-                </p>
-              ) : null
-            )}
+            <p className="fleet-infoBoxDescription">
+              Capacity: {capacity} people
+            </p>
+            <a
+              className="fleet-infoBtn"
+              href={`https://wa.me/529841794344?text=Hi%20Arcanova%20team,%20I'd%20like%20to%20ask%20you%20about%20${name}...`}
+            >
+              View More
+            </a>
           </div>
         </div>
       </div>

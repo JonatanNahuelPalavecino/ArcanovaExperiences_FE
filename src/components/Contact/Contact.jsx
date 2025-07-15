@@ -1,5 +1,6 @@
 import { Whatsapp } from "../utils/icons/Whatsapp/Whatsapp";
 import { Instagram } from "../utils/icons/Instagram/Instagram";
+import { Facebook } from "../utils/icons/Facebook/Facebook";
 import "./Contact.scss";
 
 export const Contact = () => {
@@ -17,13 +18,22 @@ export const Contact = () => {
       </p>
       <div className="contact-btns">
         <a
-          href="https://wa.me/529841794344?text=Hola%20equipo%20de%20Arcanova,%20quisiera%20consultarte%20por..."
+          href="https://wa.me/529841794344?text=Hi%20Arcanova%20team,%20I'd%20like%20to%20ask%20you%20about..."
           target="_blank"
           rel="noreferrer"
           className="contact-btn"
         >
           <Whatsapp style={"contact-btnIcon"} />
           Whatsapp
+        </a>
+        <a
+          href="https://www.facebook.com/arcanovaexperience"
+          target="_blank"
+          rel="noreferrer"
+          className="contact-btn"
+        >
+          <Facebook style={"contact-btnIcon"} />
+          Facebook
         </a>
         <a
           href="https://www.instagram.com/arcanova.experience/"

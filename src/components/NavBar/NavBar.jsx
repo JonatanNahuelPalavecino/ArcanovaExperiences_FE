@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link, useNavigate, useLocation } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import { motion as Motion } from "framer-motion";
 import { HideOnScroll } from "./HideOnScroll";
 import { useNavbarScroll } from "../Hooks/useNavbarScroll";
@@ -9,7 +9,9 @@ import { Sidebar } from "../Sidebar/Sidebar";
 import GroupIcon from '@mui/icons-material/Group'
 import HomeIcon from "@mui/icons-material/Home";
 import ReviewsIcon from '@mui/icons-material/Reviews'
-import logo from "../../assets/images/logo.PNG";
+// import logo from "../../assets/images/logo.PNG";
+import logo from "../../assets/images/logo-nuevo.png";
+import nombreLogo from "../../assets/images/nombre-logo.png";
 import "./NavBar.scss";
 import { handleScrollOrNavigate } from "../utils/otros/handleScrollOrNavigate";
 
@@ -50,9 +52,8 @@ const navItems = [
               <div className="nav-imgBox" onClick={() => handleScrollOrNavigate("home", navigate, location)}>
                 <img className="nav-img" src={logo} alt="logo" />
               </div>
-              <div>
-                <p className="nav-text">Arcanova Experiences</p>
-                <p className="nav-subText">Travel Agency</p>
+              <div className="nav-nameBox">
+                <img className="nav-name" src={nombreLogo} alt="nombre-logo" />
               </div>
             </div>
             <nav className="nav-enlace">
