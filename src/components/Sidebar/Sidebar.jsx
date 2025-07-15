@@ -8,7 +8,8 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import { useLocation, useNavigate } from "react-router-dom";
 import MenuOpenIcon from '@mui/icons-material/MenuOpen';
-import logo from "../../assets/images/logo.PNG"
+import logo from "../../assets/images/logo-nuevo.png"
+import nombreLogo from "../../assets/images/nombre-logo.png"
 import "./Sidebar.scss"
 import { handleScrollOrNavigate } from "../utils/otros/handleScrollOrNavigate";
 
@@ -57,14 +58,18 @@ export const Sidebar = ({ open, setOpen, navItems }) => {
   return (
     <Drawer onClose={() => setOpen(!open)} open={open} anchor="right" disableScrollLock>
       <div className="sidebar">
-        <MenuOpenIcon onClick={() => setOpen(!open)} sx={{ width: "30px", height: "30px", cursor: "pointer"}}/>
+        <MenuOpenIcon onClick={() => setOpen(!open)} sx={{ width: "30px", height: "30px", color: "white", cursor: "pointer"}}/>
         <div className="sidebar-box">
           <img
             className="sidebar-img"
             src={logo}
             alt="logo"
           />
-          <p className="sidebar-text">Arcanova Experiences</p>
+          <img
+            className="sidebar-nombreImg"
+            src={nombreLogo}
+            alt="logo"
+          />
         </div>
       </div>
       <Divider/>

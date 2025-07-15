@@ -1,5 +1,6 @@
 import { useLocation, useNavigate } from "react-router-dom";
-import logo from "../../assets/images/logo.PNG";
+import logo from "../../assets/images/logo-nuevo.png";
+import nombreLogo from "../../assets/images/nombre-logo.png";
 import "./Footer.scss";
 import { handleScrollOrNavigate } from "../utils/otros/handleScrollOrNavigate";
 
@@ -61,19 +62,10 @@ export const Footer = () => {
               Testimonial
             </a>
           </li>
-          <li className="footer-columnItem">
-            <a className="footer-columnLink" href="#">
-              Faq's
-            </a>
-          </li>
-          <li className="footer-columnItem">
-            <a className="footer-columnLink" href="#">
-              Terms & Conditions
-            </a>
-          </li>
         </ul>
-        <div className="footer-img">
-          <img className="footer-logo" src={logo} alt="logo" />
+        <div className="footer-logo">
+          <img className="footer-img" src={logo} alt="logo" />
+          <img className="footer-nombreImg" src={nombreLogo} alt="nombre-logo" />
         </div>
       </div>
       <p className="footer-sign">

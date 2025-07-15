@@ -8,7 +8,7 @@ export const AboutUs = () => {
   return (
     <section id="about-us" className="about">
       <h2 className="about-title">
-        Experience Mexico with the Comfort
+        Explore Tulum & Cancun with the Comfort
         <strong className="about-titleAt"> You Deserve</strong>
       </h2>
       <div className="about-container">
@@ -29,10 +29,10 @@ export const AboutUs = () => {
           <AnimatedContainer
             direction="left"
             backgroundColor="rgba(255, 255, 255, 0.9)"
-            borderRadius="none"
-            boxShadow="none"
+            borderRadius="25px"
+            style="about-limit"
           >
-            <p className="about-text about-limit">
+            <p className="about-text">
               From private yacht tours in Cancún to luxury accommodations,
               airport transfers, and curated excursions — we handle every
               detail, so you can focus on what truly matters:
@@ -58,11 +58,11 @@ export const AboutUs = () => {
           <AnimatedContainer
             direction="right"
             backgroundColor="rgba(0, 0, 0, 0)"
-            borderRadius="none"
-            boxShadow="none"
+            borderRadius="25px"
+            style="about-limit"
           >
-            <p className="about-text about-limit">
-              With years of experience hosting travelers from the U.S., Canada, Alaska, and Europe, we offer safe, seamless, and personalized service tailored to your pace and preferences. Whether you're seeking adventure or serenity, we make sure your Mexico experience feels effortless and extraordinary.
+            <p className="about-text">
+              With years of experience hosting travelers from the U.S, Canada, and Europe, we offer safe, seamless, and personalized service tailored to your pace and preferences. Whether you're seeking adventure or serenity, we make sure your Mexico experience feels effortless and extraordinary.
             </p>
           </AnimatedContainer>
         </div>
