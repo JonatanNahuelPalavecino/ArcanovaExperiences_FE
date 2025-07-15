@@ -6,7 +6,7 @@ import "@splidejs/react-splide/css";
 import "@splidejs/react-splide/css/skyblue";
 import { CardFleet } from "../CardFleet/CardFleet";
 import AnimatedContainer from "../utils/otros/AnimatedContainer/AnimatedContainer";
-import PriorityHighIcon from '@mui/icons-material/PriorityHigh';
+import PriorityHighIcon from "@mui/icons-material/PriorityHigh";
 import "./Experience.scss";
 
 export const Experience = () => {
@@ -88,9 +88,11 @@ export const Experience = () => {
                   <p className="experience-optionsCardDescription">
                     {opt.description}
                   </p>
-                  <p className="experience-optionsCardDuration">
-                    Duration: {opt.duration}
-                  </p>
+                  {opt.duration && (
+                    <p className="experience-optionsCardDuration">
+                      Duration: {opt.duration}
+                    </p>
+                  )}
                 </div>
               </AnimatedContainer>
             ))}
@@ -101,7 +103,7 @@ export const Experience = () => {
       {fleet?.length > 0 && (
         <section className="experience-fleet">
           <h2 className="experience-fleetTitle">Fleet</h2>
-          {fleet.map((item, i) => (
+          {fleet.slice(0, 5).map((item, i) => (
             <CardFleet key={i} {...item} />
           ))}
         </section>
@@ -109,7 +111,7 @@ export const Experience = () => {
 
       {extra_fee_note && (
         <div className="experience-extra">
-          <PriorityHighIcon className="experience-extraIcon"/>
+          <PriorityHighIcon className="experience-extraIcon" />
           <p className="experience-extraText">{extra_fee_note}</p>
         </div>
       )}
@@ -128,5 +130,3 @@ export const Experience = () => {
     </main>
   );
 };
-
-//DEFINIR ESTE COMPONENTE, ESTILARLO EN FUNCION DE LAS EXPERIENCIAS PRIVADAS, LUEGO ESTILAR EN FUNCION DE LOS TOURS PRIVADOS

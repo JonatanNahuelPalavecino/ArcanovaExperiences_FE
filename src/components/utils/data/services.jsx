@@ -175,7 +175,7 @@ export const services = [
   {
     type: "private_experiences",
     path: "puerto-aventura",
-    name: "Yatch from Puerto Aventura to Cozumel",
+    name: "Yachts from Puerto Aventura to Cozumel",
     description: "Private sailing experience from Puerto aventura to Cozumel.",
     foto: puerto_aventura_logo,
     images: [p_a_1, p_a_2, p_a_3, p_a_4, p_a_5],
@@ -306,7 +306,7 @@ export const services = [
   {
     type: "private_experiences",
     path: "cancun",
-    name: "Yatch from Cancún to Isla Mujeres",
+    name: "Yachts from Cancún to Isla Mujeres",
     description:
       "Private luxury yacht experience from Cancún to Isla Mujeres. Enjoy Playa Norte, Punta Sur, snorkeling, music, drinks, and top-tier service aboard exclusive vessels.",
     foto: cancun_logo,
@@ -330,9 +330,29 @@ export const services = [
         description: "Music, captain, and waiter service.",
       },
     ],
+    options: [
+      {
+        duration: null,
+        title: "Reef & Playa Norte",
+        description:
+          "Discover marine life in the reefs and relax at the most beautiful beach in the Caribbean!",
+      },
+      {
+        duration: null,
+        title: "Sunset Punta Sur",
+        description:
+          "Enjoy the sunset from one of the best spots on the island.",
+      },
+      {
+        duration: null,
+        title: "Isla Celebration VIP",
+        description:
+          "We create the perfect party for you and your guests. It will be unforgettable!",
+      },
+    ],
     fleet: [
       {
-        id: 1,
+        id: 6,
         name: "Tata 44 ft",
         capacity: 15,
         prices: {
@@ -341,25 +361,7 @@ export const services = [
         },
       },
       {
-        id: 2,
-        name: "SeaDaddy 54 ft",
-        capacity: 18,
-        prices: {
-          "6_hours": 24500,
-          "8_hours": 26500,
-        },
-      },
-      {
-        id: 3,
-        name: "Sea Monkey",
-        capacity: 22,
-        prices: {
-          "6_hours": 21000,
-          "8_hours": 23000,
-        },
-      },
-      {
-        id: 4,
+        id: 7,
         name: "Sea Mami 52 ft",
         capacity: 25,
         prices: {
@@ -368,7 +370,7 @@ export const services = [
         },
       },
       {
-        id: 5,
+        id: 8,
         name: "Black Mia 43 ft",
         capacity: 15,
         prices: {
@@ -377,35 +379,7 @@ export const services = [
         },
       },
       {
-        id: 6,
-        name: "Señorita 43 ft",
-        capacity: 15,
-        prices: {
-          "6_hours": 16800,
-          "8_hours": 18800,
-        },
-      },
-      {
-        id: 7,
-        name: "Azul 46 ft",
-        capacity: 12,
-        prices: {
-          "6_hours": 16000,
-          "8_hours": 18000,
-        },
-        images: [
-          az_46_1,
-          az_46_2,
-          az_46_3,
-          az_46_4,
-          az_46_5,
-          az_46_6,
-          az_46_7,
-          az_46_8,
-        ],
-      },
-      {
-        id: 8,
+        id: 9,
         name: "Paradise 58 ft",
         capacity: 22,
         prices: {
@@ -423,49 +397,13 @@ export const services = [
         ],
       },
       {
-        id: 9,
-        name: "Impulse 45 ft",
-        capacity: 15,
-        prices: {
-          "6_hours": 16400,
-          "8_hours": 18400,
-        },
-      },
-      {
         id: 10,
-        name: "Capitán Jack",
-        capacity: 15,
-        prices: {
-          "6_hours": 14000,
-          "8_hours": 16000,
-        },
-      },
-      {
-        id: 11,
-        name: "Oceani 44 ft",
+        name: "Oasis 40 ft",
         capacity: 10,
         prices: {
-          "6_hours": 15900,
-          "8_hours": 17900,
-        },
-      },
-      {
-        id: 12,
-        name: "Shashe 44 ft",
-        capacity: 15,
-        prices: {
-          "6_hours": 15000,
-          "8_hours": 17000,
-        },
-      },
-      {
-        id: 13,
-        name: "Bella Mare 33 ft",
-        capacity: 8,
-        prices: {
-          "6_hours": 12000,
-          "8_hours": 14000,
-        },
+          "6_hours": null,
+          "8_hours": null,
+        }
       },
     ],
     extra_fee_note:

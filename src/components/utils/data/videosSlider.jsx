@@ -7,7 +7,7 @@ export const videosSlider = [
   {
     src: slider_uno,
     name: "slider1",
-    title: "Discover Mexico",
+    title: "Discover Riviera Maya",
     subtitle: "like never before",
   },
   {
@@ -19,7 +19,7 @@ export const videosSlider = [
   {
     src: slider_tres,
     name: "slider3",
-    title: "Mexico is calling",
+    title: "Tulum is calling",
     subtitle: "Are you coming?",
   }
 ];
