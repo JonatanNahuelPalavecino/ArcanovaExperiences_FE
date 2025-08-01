@@ -2,7 +2,7 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import "./CardFleet.scss";
 
-export const CardFleet = ({ name, capacity, prices, images }) => {
+export const CardFleet = ({ service, name, capacity, prices, images }) => {
   const fleetStyles = [
     { gridColumn: "1 / 3", gridRow: "1 / 3" },
     { gridColumn: "1 / 3", gridRow: "3 / 5" },
@@ -60,7 +60,9 @@ export const CardFleet = ({ name, capacity, prices, images }) => {
             </p>
             <a
               className="fleet-infoBtn"
-              href={`https://wa.me/529841794344?text=Hi%20Arcanova%20team,%20I'd%20like%20to%20ask%20you%20about%20${name}...`}
+              target="_blank"
+              rel="noreferrer"
+              href={`https://wa.me/529841794344?text=Hi%20Arcanova%20team,%20I'd%20like%20to%20ask%20you%20about%20${service}%20in%20yacht%20${name}...`}
             >
               View More
             </a>

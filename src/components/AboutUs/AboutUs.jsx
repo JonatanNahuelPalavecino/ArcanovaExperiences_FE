@@ -1,8 +1,8 @@
 import AnimatedContainer from "../utils/otros/AnimatedContainer/AnimatedContainer";
-import image_uno from "../../assets/images/pexels-emiliano-lg-74516068-32784351.jpg";
-import image_dos from "../../assets/images/pexels-rpnickson-2631613.jpg";
+// import image_uno from "../../assets/images/pexels-emiliano-lg-74516068-32784351.jpg";
+// import image_dos from "../../assets/images/pexels-rpnickson-2631613.jpg";
 import "./AboutUs.scss"
-import { WaveLines } from "../utils/otros/WaveLines/WaveLines";
+// import { WaveLines } from "../utils/otros/WaveLines/WaveLines";
 
 export const AboutUs = () => {
   return (
@@ -44,7 +44,7 @@ export const AboutUs = () => {
             backgroundColor="rgb(255, 255, 255)"
             borderRadius="25px"
           >
-            <img className="about-img" src={image_uno} alt="Imagen-Uno" />
+            <img className="about-img" src="https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060934/pexels-emiliano-lg-74516068-32784351_hmgwco.jpg" alt="Imagen-Uno" />
           </AnimatedContainer>
         </div>
         <div className="about-box">
@@ -53,7 +53,7 @@ export const AboutUs = () => {
             backgroundColor="rgb(255, 255, 255)"
             borderRadius="25px"
           >
-            <img className="about-img" src={image_dos} alt="Imagen-Dos" />
+            <img className="about-img" src="https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060935/pexels-rpnickson-2631613_pveveb.jpg" alt="Imagen-Dos" />
           </AnimatedContainer>
           <AnimatedContainer
             direction="right"

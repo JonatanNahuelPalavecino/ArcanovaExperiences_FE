@@ -56,6 +56,13 @@
     font-family: "Poppins", sans-serif;
     padding: 0.5rem 0;
 
+    @media (max-width: 550px) {
+      -webkit-line-clamp: 7;
+      -webkit-box-orient: vertical;
+      display: -webkit-box;
+      overflow: hidden;
+    }
+
     @media (max-width: 415px) {
       font-size: 0.9rem;
       padding: 0.5rem 0 0;
@@ -72,5 +79,10 @@
     color: white;
     border-radius: 4px;
     cursor: pointer;
+
+    @media (max-width: 415px) {
+      font-size: 0.9rem;
+      padding: 0.2rem 0.5rem;
+    }
   }
 }
