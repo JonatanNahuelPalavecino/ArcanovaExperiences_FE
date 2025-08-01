@@ -2,8 +2,8 @@ import { CardExperience } from "../CardExperience/CardExperience";
 import AnimatedContainer from "../utils/otros/AnimatedContainer/AnimatedContainer";
 import { services } from "../utils/data/services";
 import "./Experiences.scss";
-import { Waves } from "../utils/otros/Waves/Waves";
-import { useState } from "react";
+// import { Waves } from "../utils/otros/Waves/Waves";
+// import { useState } from "react";
 
 export const Experiences = () => {
   const privateExperiences = services.filter(
