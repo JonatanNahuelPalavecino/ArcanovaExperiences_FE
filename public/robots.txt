@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://arcanova.com.mx/sitemap.xml

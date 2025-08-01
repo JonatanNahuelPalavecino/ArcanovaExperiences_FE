@@ -38,7 +38,22 @@ export const Experience = () => {
       >
         {images.map((el, i) => (
           <SplideSlide key={i} className="experience-sliderImg">
-            <img className="experience-sliderMedia" src={el} alt={i} />
+            <img
+              className="experience-sliderMedia"
+              src={`${el}?f_auto&q_auto`} // mejora en Cloudinary
+              alt={`Slide ${i}`}
+              loading="lazy"
+              width="1920"
+              height="1080"
+              style={{
+                width: "100%",
+                height: "auto",
+                objectFit: "cover",
+                transition: "opacity 0.5s ease-in-out",
+                opacity: 0,
+              }}
+              onLoad={(e) => (e.currentTarget.style.opacity = 1)}
+            />
           </SplideSlide>
         ))}
       </Splide>
