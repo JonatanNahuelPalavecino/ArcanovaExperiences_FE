@@ -1,184 +1,17 @@
-import puerto_aventura_logo from "../../../assets/images/private_experiences/puerto_aventura/puerto_aventura_logo.jpg";
-
-import p_a_1 from "../../../assets/images/private_experiences/puerto_aventura/1_puerto_aventura.JPG";
-import p_a_2 from "../../../assets/images/private_experiences/puerto_aventura/2_puerto_aventura.JPG";
-import p_a_3 from "../../../assets/images/private_experiences/puerto_aventura/3_puerto_aventura.JPG";
-import p_a_4 from "../../../assets/images/private_experiences/puerto_aventura/4_puerto_aventura.JPG";
-import p_a_5 from "../../../assets/images/private_experiences/puerto_aventura/5_puerto_aventura.JPG";
-
-import azi_44_1 from "../../../assets/images/private_experiences/puerto_aventura/azimut_44/1_azi.jpg";
-import azi_44_2 from "../../../assets/images/private_experiences/puerto_aventura/azimut_44/2_azi.jpg";
-import azi_44_3 from "../../../assets/images/private_experiences/puerto_aventura/azimut_44/3_azi.jpg";
-import azi_44_4 from "../../../assets/images/private_experiences/puerto_aventura/azimut_44/4_azi.jpg";
-import azi_44_5 from "../../../assets/images/private_experiences/puerto_aventura/azimut_44/5_azi.jpg";
-import azi_44_6 from "../../../assets/images/private_experiences/puerto_aventura/azimut_44/6_azi.jpg";
-import azi_44_7 from "../../../assets/images/private_experiences/puerto_aventura/azimut_44/7_azi.jpg";
-import azi_44_8 from "../../../assets/images/private_experiences/puerto_aventura/azimut_44/8_azi.jpg";
-import fly_48_1 from "../../../assets/images/private_experiences/puerto_aventura/flybridge_48/1_fly.JPG";
-import fly_48_2 from "../../../assets/images/private_experiences/puerto_aventura/flybridge_48/2_fly.JPG";
-import fly_48_3 from "../../../assets/images/private_experiences/puerto_aventura/flybridge_48/3_fly.JPG";
-import fly_48_4 from "../../../assets/images/private_experiences/puerto_aventura/flybridge_48/4_fly.JPG";
-import fly_48_5 from "../../../assets/images/private_experiences/puerto_aventura/flybridge_48/5_fly.JPG";
-import fly_48_6 from "../../../assets/images/private_experiences/puerto_aventura/flybridge_48/6_fly.JPG";
-import fly_48_7 from "../../../assets/images/private_experiences/puerto_aventura/flybridge_48/7_fly.JPG";
-import fly_48_8 from "../../../assets/images/private_experiences/puerto_aventura/flybridge_48/8_fly.JPG";
-import lag_1 from "../../../assets/images/private_experiences/puerto_aventura/lagoon_cat/1_lag.jpg";
-import lag_2 from "../../../assets/images/private_experiences/puerto_aventura/lagoon_cat/2_lag.jpg";
-import lag_3 from "../../../assets/images/private_experiences/puerto_aventura/lagoon_cat/3_lag.jpg";
-import lag_4 from "../../../assets/images/private_experiences/puerto_aventura/lagoon_cat/4_lag.jpg";
-import lag_5 from "../../../assets/images/private_experiences/puerto_aventura/lagoon_cat/5_lag.jpg";
-import lag_6 from "../../../assets/images/private_experiences/puerto_aventura/lagoon_cat/6_lag.jpg";
-import sun_1 from "../../../assets/images/private_experiences/puerto_aventura/sun_deluxe_55/1_sun.JPG";
-import sun_2 from "../../../assets/images/private_experiences/puerto_aventura/sun_deluxe_55/2_sun.JPG";
-import sun_3 from "../../../assets/images/private_experiences/puerto_aventura/sun_deluxe_55/3_sun.JPG";
-import sun_4 from "../../../assets/images/private_experiences/puerto_aventura/sun_deluxe_55/4_sun.JPG";
-import sun_5 from "../../../assets/images/private_experiences/puerto_aventura/sun_deluxe_55/5_sun.JPG";
-import sun_6 from "../../../assets/images/private_experiences/puerto_aventura/sun_deluxe_55/6_sun.JPG";
-import sun_7 from "../../../assets/images/private_experiences/puerto_aventura/sun_deluxe_55/7_sun.JPG";
-import sun_8 from "../../../assets/images/private_experiences/puerto_aventura/sun_deluxe_55/8_sun.JPG";
-import sun_dan_1 from "../../../assets/images/private_experiences/puerto_aventura/sundancer_48/1_sun.JPG";
-import sun_dan_2 from "../../../assets/images/private_experiences/puerto_aventura/sundancer_48/2_sun.JPG";
-import sun_dan_3 from "../../../assets/images/private_experiences/puerto_aventura/sundancer_48/3_sun.JPG";
-import sun_dan_4 from "../../../assets/images/private_experiences/puerto_aventura/sundancer_48/4_sun.JPG";
-import sun_dan_5 from "../../../assets/images/private_experiences/puerto_aventura/sundancer_48/5_sun.JPG";
-import sun_dan_6 from "../../../assets/images/private_experiences/puerto_aventura/sundancer_48/6_sun.JPG";
-import sun_dan_7 from "../../../assets/images/private_experiences/puerto_aventura/sundancer_48/7_sun.JPG";
-import sun_dan_8 from "../../../assets/images/private_experiences/puerto_aventura/sundancer_48/8_sun.JPG";
-import sun_dan_9 from "../../../assets/images/private_experiences/puerto_aventura/sundancer_48/9_sun.JPG";
-
-import cancun_logo from "../../../assets/images/private_experiences/cancun/cancun_logo.jpg";
-
-import ca_1 from "../../../assets/images/private_experiences/cancun/1_cancun.JPG";
-import ca_2 from "../../../assets/images/private_experiences/cancun/2_cancun.JPG";
-import ca_3 from "../../../assets/images/private_experiences/cancun/3_cancun.JPG";
-import ca_4 from "../../../assets/images/private_experiences/cancun/4_cancun.JPG";
-import ca_5 from "../../../assets/images/private_experiences/cancun/5_cancun.JPG";
-
-import az_46_1 from "../../../assets/images/private_experiences/cancun/azul_46_ft/1_azu.JPG";
-import az_46_2 from "../../../assets/images/private_experiences/cancun/azul_46_ft/2_azu.JPG";
-import az_46_3 from "../../../assets/images/private_experiences/cancun/azul_46_ft/3_azu.JPG";
-import az_46_4 from "../../../assets/images/private_experiences/cancun/azul_46_ft/4_azu.JPG";
-import az_46_5 from "../../../assets/images/private_experiences/cancun/azul_46_ft/5_azu.JPG";
-import az_46_6 from "../../../assets/images/private_experiences/cancun/azul_46_ft/6_azu.JPG";
-import az_46_7 from "../../../assets/images/private_experiences/cancun/azul_46_ft/7_azu.JPG";
-import az_46_8 from "../../../assets/images/private_experiences/cancun/azul_46_ft/8_azu.JPG";
-import para_58_1 from "../../../assets/images/private_experiences/cancun/paradice_58_ft/1_parad.JPG";
-import para_58_2 from "../../../assets/images/private_experiences/cancun/paradice_58_ft/2_parad.JPG";
-import para_58_3 from "../../../assets/images/private_experiences/cancun/paradice_58_ft/3_parad.JPG";
-import para_58_4 from "../../../assets/images/private_experiences/cancun/paradice_58_ft/4_parad.JPG";
-import para_58_5 from "../../../assets/images/private_experiences/cancun/paradice_58_ft/5_parad.JPG";
-import para_58_6 from "../../../assets/images/private_experiences/cancun/paradice_58_ft/6_parad.JPG";
-import para_58_7 from "../../../assets/images/private_experiences/cancun/paradice_58_ft/7_parad.JPG";
-
-import atv_aventura_logo from "../../../assets/images/private_tours/atv_aventura/1_atv_aventura.jpg";
-
-import atv_1 from "../../../assets/images/private_tours/atv_aventura/1_atv_aventura.jpg";
-import atv_2 from "../../../assets/images/private_tours/atv_aventura/2_atv_aventura.jpg";
-import atv_3 from "../../../assets/images/private_tours/atv_aventura/3_atv_aventura.webp";
-import atv_4 from "../../../assets/images/private_tours/atv_aventura/4_atv_aventura.jpg";
-import atv_5 from "../../../assets/images/private_tours/atv_aventura/5_atv_aventura.jpeg";
-
-import bacalar_siete_colores_logo from "../../../assets/images/private_tours/bacalar_siete_colores/6_bacalar.jpg";
-
-import baca_1 from "../../../assets/images/private_tours/bacalar_siete_colores/1_bacalar.jpg";
-import baca_2 from "../../../assets/images/private_tours/bacalar_siete_colores/2_bacalar.jpg";
-import baca_3 from "../../../assets/images/private_tours/bacalar_siete_colores/3_bacalar.jpg";
-import baca_4 from "../../../assets/images/private_tours/bacalar_siete_colores/4_bacalar.jpg";
-import baca_5 from "../../../assets/images/private_tours/bacalar_siete_colores/5_bacalar.jpg";
-import baca_6 from "../../../assets/images/private_tours/bacalar_siete_colores/6_bacalar.jpg";
-import baca_7 from "../../../assets/images/private_tours/bacalar_siete_colores/7_bacalar.jpg";
-import baca_8 from "../../../assets/images/private_tours/bacalar_siete_colores/8_bacalar.jpg";
-
-import chichen_itza_deluxe_logo from "../../../assets/images/private_tours/chichen_itza_deluxe/1_chichen.jpeg";
-
-import chichen_1 from "../../../assets/images/private_tours/chichen_itza_deluxe/1_chichen.jpeg";
-import chichen_2 from "../../../assets/images/private_tours/chichen_itza_deluxe/2_chichen.jpg";
-import chichen_3 from "../../../assets/images/private_tours/chichen_itza_deluxe/3_chichen.jpg";
-import chichen_4 from "../../../assets/images/private_tours/chichen_itza_deluxe/4_chichen.jpg";
-import chichen_5 from "../../../assets/images/private_tours/chichen_itza_deluxe/5_chichen.jpg";
-import chichen_6 from "../../../assets/images/private_tours/chichen_itza_deluxe/6_chichen.jpg";
-import chichen_7 from "../../../assets/images/private_tours/chichen_itza_deluxe/7_chichen.jpg";
-import chichen_8 from "../../../assets/images/private_tours/chichen_itza_deluxe/8_chichen.jpg";
-
-import el_cielo_cozumel_logo from "../../../assets/images/private_tours/el_cielo_cozumel/1_el_cielo.jpg";
-
-import el_cielo_1 from "../../../assets/images/private_tours/el_cielo_cozumel/1_el_cielo.jpg";
-import el_cielo_2 from "../../../assets/images/private_tours/el_cielo_cozumel/2_el_cielo.jpg";
-import el_cielo_3 from "../../../assets/images/private_tours/el_cielo_cozumel/3_el_cielo.jpg";
-import el_cielo_4 from "../../../assets/images/private_tours/el_cielo_cozumel/4_el_cielo.JPG";
-import el_cielo_5 from "../../../assets/images/private_tours/el_cielo_cozumel/5_el_cielo.jpg";
-import el_cielo_6 from "../../../assets/images/private_tours/el_cielo_cozumel/6_el_cielo.jpg";
-import el_cielo_7 from "../../../assets/images/private_tours/el_cielo_cozumel/7_el_cielo.jpg";
-import el_cielo_8 from "../../../assets/images/private_tours/el_cielo_cozumel/8_el_cielo.JPG";
-
-import holbox_magico_logo from "../../../assets/images/private_tours/holbox_magico/4_holbox.jpg";
-
-import holbox_1 from "../../../assets/images/private_tours/holbox_magico/1_holbox.jpg";
-import holbox_2 from "../../../assets/images/private_tours/holbox_magico/2_holbox.jpg";
-import holbox_3 from "../../../assets/images/private_tours/holbox_magico/3_holbox.jpeg";
-import holbox_4 from "../../../assets/images/private_tours/holbox_magico/4_holbox.jpg";
-import holbox_5 from "../../../assets/images/private_tours/holbox_magico/5_holbox.jpg";
-import holbox_6 from "../../../assets/images/private_tours/holbox_magico/6_holbox.jpg";
-import holbox_7 from "../../../assets/images/private_tours/holbox_magico/7_holbox.jpg";
-
-import isla_contoy_logo from "../../../assets/images/private_tours/isla_contoy/4_isla.jpg";
-
-import isla_contoy_1 from "../../../assets/images/private_tours/isla_contoy/1_isla.jpeg";
-import isla_contoy_2 from "../../../assets/images/private_tours/isla_contoy/2_isla.jpg";
-import isla_contoy_3 from "../../../assets/images/private_tours/isla_contoy/3_isla.jpeg";
-import isla_contoy_4 from "../../../assets/images/private_tours/isla_contoy/4_isla.jpg";
-import isla_contoy_5 from "../../../assets/images/private_tours/isla_contoy/5_isla.jpeg";
-import isla_contoy_6 from "../../../assets/images/private_tours/isla_contoy/6_isla.jpeg";
-import isla_contoy_7 from "../../../assets/images/private_tours/isla_contoy/7_isla.jpg";
-import isla_contoy_8 from "../../../assets/images/private_tours/isla_contoy/8_isla.jpg";
-
-import isla_mujeres_deluxe_logo from "../../../assets/images/private_tours/isla_mujeres_deluxe/5_isla.jpg";
-
-import isla_mujeres_1 from "../../../assets/images/private_tours/isla_mujeres_deluxe/1_isla.jpg";
-import isla_mujeres_2 from "../../../assets/images/private_tours/isla_mujeres_deluxe/2_isla.jpg";
-import isla_mujeres_3 from "../../../assets/images/private_tours/isla_mujeres_deluxe/3_isla.jpg";
-import isla_mujeres_4 from "../../../assets/images/private_tours/isla_mujeres_deluxe/4_isla.jpg";
-import isla_mujeres_5 from "../../../assets/images/private_tours/isla_mujeres_deluxe/5_isla.jpg";
-import isla_mujeres_6 from "../../../assets/images/private_tours/isla_mujeres_deluxe/6_isla.jpg";
-import isla_mujeres_7 from "../../../assets/images/private_tours/isla_mujeres_deluxe/7_isla.JPG";
-
-import lugares_secretos_logo from "../../../assets/images/private_tours/lugares_secretos/4_lugares.jpg";
-
-import lugares_1 from "../../../assets/images/private_tours/lugares_secretos/1_lugares.jpg";
-import lugares_2 from "../../../assets/images/private_tours/lugares_secretos/2_lugares.jpg";
-import lugares_3 from "../../../assets/images/private_tours/lugares_secretos/3_lugares.jpg";
-import lugares_4 from "../../../assets/images/private_tours/lugares_secretos/4_lugares.jpg";
-import lugares_5 from "../../../assets/images/private_tours/lugares_secretos/5_lugares.jpg";
-import lugares_6 from "../../../assets/images/private_tours/lugares_secretos/6_lugares.jpg";
-import lugares_7 from "../../../assets/images/private_tours/lugares_secretos/7_lugares.jpg";
-
-import sian_kaan_deluxe_logo from "../../../assets/images/private_tours/sian_kaan_deluxe/1_sian.jpg";
-
-import sian_1 from "../../../assets/images/private_tours/sian_kaan_deluxe/1_sian.jpg";
-import sian_2 from "../../../assets/images/private_tours/sian_kaan_deluxe/2_sian.jpg";
-import sian_3 from "../../../assets/images/private_tours/sian_kaan_deluxe/3_sian.jpg";
-import sian_4 from "../../../assets/images/private_tours/sian_kaan_deluxe/4_sian.jpg";
-import sian_5 from "../../../assets/images/private_tours/sian_kaan_deluxe/5_sian.jpg";
-import sian_6 from "../../../assets/images/private_tours/sian_kaan_deluxe/6_sian.jpg";
-import sian_7 from "../../../assets/images/private_tours/sian_kaan_deluxe/7_sian.jpg";
-
-import tulum_casa_tortuga_logo from "../../../assets/images/private_tours/tulum_casa_tortuga/5_tulum.jpg";
-
-import tulum_1 from "../../../assets/images/private_tours/tulum_casa_tortuga/1_tulum.jpg";
-import tulum_2 from "../../../assets/images/private_tours/tulum_casa_tortuga/2_tulum.jpg";
-import tulum_3 from "../../../assets/images/private_tours/tulum_casa_tortuga/3_tulum.jpeg";
-import tulum_4 from "../../../assets/images/private_tours/tulum_casa_tortuga/4_tulum.jpg";
-import tulum_5 from "../../../assets/images/private_tours/tulum_casa_tortuga/5_tulum.jpg";
-import tulum_6 from "../../../assets/images/private_tours/tulum_casa_tortuga/6_tulum.jpg";
-
 export const services = [
   {
     type: "private_experiences",
     path: "puerto-aventura",
     name: "Yachts from Puerto Aventura to Cozumel",
     description: "Private sailing experience from Puerto aventura to Cozumel.",
-    foto: puerto_aventura_logo,
-    images: [p_a_1, p_a_2, p_a_3, p_a_4, p_a_5],
+    foto: "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060561/puerto_aventura_logo_lubv34.jpg",
+    images: [
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060538/1_puerto_aventura_cazcht.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060541/2_puerto_aventura_cqbwme.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060539/3_puerto_aventura_adiva2.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060540/4_puerto_aventura_sursoj.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060542/5_puerto_aventura_rocbjk.jpg",
+    ],
     include: [
       {
         type: "food",
@@ -226,15 +59,15 @@ export const services = [
           "8_hours": null,
         },
         images: [
-          sun_dan_1,
-          sun_dan_2,
-          sun_dan_3,
-          sun_dan_4,
-          sun_dan_5,
-          sun_dan_6,
-          sun_dan_7,
-          sun_dan_8,
-          sun_dan_9,
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060562/1_sun_eark1e.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060563/2_sun_qbluzx.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060562/3_sun_zv0pl5.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060563/4_sun_emxree.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060566/5_sun_gqqy9i.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060565/6_sun_djug7a.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060566/7_sun_ycmmve.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060567/8_sun_kqg29r.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060567/9_sun_doplcl.jpg",
         ],
       },
       {
@@ -247,14 +80,14 @@ export const services = [
           "8_hours": null,
         },
         images: [
-          fly_48_1,
-          fly_48_2,
-          fly_48_3,
-          fly_48_4,
-          fly_48_5,
-          fly_48_6,
-          fly_48_7,
-          fly_48_8,
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060547/1_fly_ffccpv.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060549/2_fly_i6yja8.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060552/3_fly_cuqi8o.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060554/4_fly_quvw5v.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060550/5_fly_pehae0.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060555/6_fly_jtpkdr.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060553/7_fly_uibbaq.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060553/8_fly_etelg9.jpg",
         ],
       },
       {
@@ -267,14 +100,14 @@ export const services = [
           "8_hours": null,
         },
         images: [
-          azi_44_1,
-          azi_44_2,
-          azi_44_3,
-          azi_44_4,
-          azi_44_5,
-          azi_44_6,
-          azi_44_7,
-          azi_44_8,
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060544/1_azi_odvquu.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060545/2_azi_unux9c.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060546/3_azi_z3lopd.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060546/4_azi_sspfhz.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060547/5_azi_msmhjo.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060549/6_azi_vh4brr.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060550/7_azi_dnfhxj.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060558/8_azi_loklsy.jpg",
         ],
       },
       {
@@ -286,7 +119,14 @@ export const services = [
           "6_hours": 2900,
           "8_hours": 3800,
         },
-        images: [lag_1, lag_2, lag_3, lag_4, lag_5, lag_6],
+        images: [
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060557/1_lag_tbwbfo.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060563/2_lag_kxwruo.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060561/3_lag_oqjdg6.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060565/4_lag_pvp2kq.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060564/5_lag_omtp3v.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060561/6_lag_zaj65n.jpg",
+        ],
       },
       {
         id: 5,
@@ -297,7 +137,16 @@ export const services = [
           "6_hours": 2800,
           "8_hours": 3700,
         },
-        images: [sun_1, sun_2, sun_3, sun_4, sun_5, sun_6, sun_7, sun_8],
+        images: [
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060569/1_sun_f3393h.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060569/2_sun_su7zex.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060569/3_sun_gsqo5x.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060570/4_sun_jdruuk.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060571/5_sun_rjg3br.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060572/6_sun_mc4shh.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060573/7_sun_sati1o.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060573/8_sun_apwjbq.jpg",
+        ],
       },
     ],
     extra_fee_note:
@@ -309,8 +158,14 @@ export const services = [
     name: "Yachts from Cancún to Isla Mujeres",
     description:
       "Private luxury yacht experience from Cancún to Isla Mujeres. Enjoy Playa Norte, Punta Sur, snorkeling, music, drinks, and top-tier service aboard exclusive vessels.",
-    foto: cancun_logo,
-    images: [ca_1, ca_2, ca_3, ca_4, ca_5],
+    foto: "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060462/cancun_logo_ubowgx.jpg",
+    images: [
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060449/1_cancun_ex7rcl.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060449/2_cancun_v6nxwz.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060449/3_cancun_v6gqs0.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060450/4_cancun_apmdhe.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060450/5_cancun_alx5dw.jpg",
+    ],
     include: [
       {
         type: "experience",
@@ -387,13 +242,13 @@ export const services = [
           "8_hours": 27000,
         },
         images: [
-          para_58_1,
-          para_58_2,
-          para_58_3,
-          para_58_4,
-          para_58_5,
-          para_58_6,
-          para_58_7,
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060454/1_parad_ywhpnj.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060455/2_parad_fhlw5c.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060455/3_parad_qh9bnt.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060456/4_parad_qbshdy.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060460/5_parad_dc4x7v.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060459/6_parad_t9wpso.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060457/7_parad_z9ujwm.jpg",
         ],
       },
       {
@@ -403,151 +258,351 @@ export const services = [
         prices: {
           "6_hours": null,
           "8_hours": null,
-        }
+        },
       },
     ],
     extra_fee_note:
       "Optional services include live DJ, decoration, open bar, private transport, photography/video, and buffet service. Ask for birthday experiences too!",
   },
   {
-    type: "private_tour",
-    path: "atv-aventure",
-    name: "ATV Aventure",
+    type: "private_tour", // hecho
+    path: "akumal-jungle-aventure",
+    name: "Akumal Jungle Aventure",
     description:
-      "Visit the iconic ruins of Tulum by the sea and swim in a stunning cenote surrounded by jungle. Includes transportation, guide, and refreshments.",
-    foto: atv_aventura_logo,
-    images: [atv_1, atv_2, atv_3, atv_4, atv_5],
+      "ATVs, zip lines, cenotes, and pure adrenaline. Ride a Yamaha ATV through private jungle trails, soar through zip lines, explore sacred cenotes, and cleanse your energy in a traditional Mayan temazcal ceremony.",
+    foto: "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060020/1_atv_aventura_bedxlp.jpg",
+    images: [
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060020/1_atv_aventura_bedxlp.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060021/2_atv_aventura_njjqbv.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060022/3_atv_aventura_i8xln3.webp",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060022/4_atv_aventura_hc7jle.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060023/5_atv_aventura_fk5kms.jpg",
+    ],
+    include: [
+      {
+        type: "Comfortable Travel",
+        description:
+          "Comfortable roundtrip bus transportation so you can relax throughout the experience.",
+      },
+      {
+        type: "Expert Guidance & Access",
+        description:
+          "Includes professional guides and entrance to both the archaeological site and natural cenotes.",
+      },
+      {
+        type: "Local Culture & Cuisine",
+        description:
+          "Enjoy a traditional buffet lunch and take advantage of free time to explore the historic town of Valladolid.",
+      },
+    ],
   },
   {
-    type: "private_tour",
+    type: "private_tour", // hecho
     path: "bacalar",
-    name: "Bacalar",
+    name: "Bacalar - Seven Colors Laggon Experience",
     description:
-      "Visit the iconic ruins of Tulum by the sea and swim in a stunning cenote surrounded by jungle. Includes transportation, guide, and refreshments.",
-    foto: bacalar_siete_colores_logo,
-    images: [baca_1, baca_2, baca_3, baca_4, baca_5, baca_6, baca_7, baca_8],
+      "A peaceful escape of color and calm. Discover the magic of Bacalar, paddle over rainbow-colored water, and unwind in a dreamy beach club setting. A perfect reset for body and soul.",
+    foto: "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060019/6_bacalar_bbvcna.jpg",
+    images: [
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060016/1_bacalar_nb9j8u.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060017/2_bacalar_tov70o.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060017/3_bacalar_gffdze.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060019/4_bacalar_s2mktv.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060019/5_bacalar_d53y46.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060019/6_bacalar_bbvcna.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060019/7_bacalar_orwoxj.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060020/8_bacalar_z8io9k.jpg",
+    ],
+    include: [
+      {
+        type: "Scenic Adventure & Photo Stops",
+        description:
+          "Enjoy roundtrip transportation and stop at iconic viewpoints for memorable photos along the way.",
+      },
+      {
+        type: "Lagoon & Cenote Experience",
+        description:
+          "Start with breakfast at the cenote, then explore the stunning Cenote Azul and kayak for an hour across the Bacalar lagoon.",
+      },
+      {
+        type: "Relaxation & Local Flavors",
+        description:
+          "Relax at an exclusive beach club for 2 hours and enjoy a delicious lunch with views of the lagoon, all guided by a bilingual expert.",
+      },
+    ],
   },
   {
-    type: "private_tour",
+    type: "private_tour", // hecho
     path: "chichen-itza",
-    name: "Chichen Itza Deluxe",
+    name: "Chichen Itza Pyramid Deluxe",
     description:
-      "Visit the iconic ruins of Tulum by the sea and swim in a stunning cenote surrounded by jungle. Includes transportation, guide, and refreshments.",
-    foto: chichen_itza_deluxe_logo,
+      "A journey through history, culture, and natural wonders. Step back in time at Chichén Itzá, one of the Seven Wonders of the World. Swim in a crystal-clear cenote, savor authentic Yucatecan food, and explore the colonial charm of Valladolid.",
+    foto: "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060041/5_chichen_vqlbo1.jpg",
     images: [
-      chichen_1,
-      chichen_2,
-      chichen_3,
-      chichen_4,
-      chichen_5,
-      chichen_6,
-      chichen_7,
-      chichen_8,
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060012/1_chichen_fwb049.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060013/2_chichen_brpp0l.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060013/3_chichen_g5kd0j.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060014/4_chichen_caxcw9.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060041/5_chichen_vqlbo1.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060015/6_chichen_iymqpz.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060015/7_chichen_cv6gqe.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060016/8_chichen_fjxjjn.jpg",
+    ],
+    include: [
+      {
+        type: "Hassle-Free Transportation",
+        description:
+          "Comfortable roundtrip bus transportation so you can relax and enjoy the journey.",
+      },
+      {
+        type: "Guided Exploration",
+        description:
+          "Expert bilingual guides and access to both the archaeological site and stunning natural cenotes.",
+      },
+      {
+        type: "Cultural and Culinary Experience",
+        description:
+          "Traditional buffet lunch included, plus free time to explore the charming town of Valladolid.",
+      },
     ],
   },
   {
-    type: "private_tour",
+    type: "private_tour", // hecho
     path: "cielo-cozumel",
-    name: "El Cielo Cozulmel",
+    name: "Cozumel - El Cielo Stargazing Snorkel Tour",
     description:
-      "Visit the iconic ruins of Tulum by the sea and swim in a stunning cenote surrounded by jungle. Includes transportation, guide, and refreshments.",
-    foto: el_cielo_cozumel_logo,
+      "A magical adventure above and below the sea. Sail over clear Caribbean waters to El Cielo, home to the famous starfish. Snorkel at the Palancar and Colombia reefs, enjoy ceviche and drinks on board, and soak up the beauty of Cozumel.",
+    foto: "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060007/1_el_cielo_x1dmiz.jpg",
     images: [
-      el_cielo_1,
-      el_cielo_2,
-      el_cielo_3,
-      el_cielo_4,
-      el_cielo_5,
-      el_cielo_6,
-      el_cielo_7,
-      el_cielo_8,
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060007/1_el_cielo_x1dmiz.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060008/2_el_cielo_ngpe4f.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060008/3_el_cielo_kfbwqi.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060009/4_el_cielo_qkgl0z.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060010/5_el_cielo_mv2sch.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060010/6_el_cielo_lf5guj.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060011/7_el_cielo_kx7wdt.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060011/8_el_cielo_e7utoa.jpg",
+    ],
+    include: [
+      {
+        type: "Scenic Boat Journey",
+        description:
+          "Cruise over the turquoise Caribbean waters with a certified guide and optional ferry and transportation available.",
+      },
+      {
+        type: "Snorkeling & Nature",
+        description:
+          "Snorkel at the stunning Palancar and Colombia reefs, and visit El Cielo, a starfish sanctuary.",
+      },
+      {
+        type: "Flavors & Relaxation",
+        description:
+          "Enjoy fresh ceviche, tropical fruits, and drinks on board, plus open bar with tequila and beer, and access to a beach club.",
+      },
     ],
   },
   {
-    type: "private_tour",
+    type: "private_tour", // hecho
     path: "holbox-magic",
-    name: "Holbox Magic",
+    name: "Holbox Magic Island Tour",
     description:
-      "Visit the iconic ruins of Tulum by the sea and swim in a stunning cenote surrounded by jungle. Includes transportation, guide, and refreshments.",
-    foto: holbox_magico_logo,
+      "Disconnect from the world, reconnect with paradise. Holbox is where time slows down. Discover its turquoise beaches, flamingos in the wild, and the peaceful charm of Isla Pasión. Enjoy local food, beach clubs, and the freedom to explore by bike or golf cart.",
+    foto: "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060003/2_holbox_cahdtz.jpg",
     images: [
-      holbox_1,
-      holbox_2,
-      holbox_3,
-      holbox_4,
-      holbox_5,
-      holbox_6,
-      holbox_7,
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060003/1_holbox_jm7gll.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060003/2_holbox_cahdtz.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060004/3_holbox_p2etq4.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060004/4_holbox_nuvedf.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060005/5_holbox_xhif2q.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060006/6_holbox_uolj7v.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060006/7_holbox_viesmn.jpg",
+    ],
+    include: [
+      {
+        type: "Island Discovery Tour",
+        description:
+          "Boat ride through mangroves and top scenic spots, including visits to Isla Pasión and Punta Mosquito with flamingo sightings and a natural pool.",
+      },
+      {
+        type: "Local Culture & Freedom",
+        description:
+          "Enjoy free time to explore Holbox by bike or golf cart at your own pace.",
+      },
+      {
+        type: "All-Inclusive Comfort",
+        description:
+          "Includes beach club buffet lunch with open bar, bilingual guide, and complete roundtrip transportation.",
+      },
     ],
   },
   {
-    type: "private_tour",
-    path: "contoy-island",
-    name: "Contoy Island",
+    type: "private_tour", // hecho
+    path: "isla-contoy-mujeres",
+    name: "Isla Contoy + Isla Mujeres Deluxe",
     description:
-      "Visit the iconic ruins of Tulum by the sea and swim in a stunning cenote surrounded by jungle. Includes transportation, guide, and refreshments.",
-    foto: isla_contoy_logo,
+      "Two Caribbean gems in one unforgettable day. Explore the untouched paradise of Isla Contoy, snorkel in vibrant reefs, and end your adventure at Playa Norte in Isla Mujeres with cocktails and beach vibes.",
+    foto: "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754059999/4_isla_gap92g.jpg",
     images: [
-      isla_contoy_1,
-      isla_contoy_2,
-      isla_contoy_3,
-      isla_contoy_4,
-      isla_contoy_5,
-      isla_contoy_6,
-      isla_contoy_7,
-      isla_contoy_8,
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754059998/1_isla_cg5w8w.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754059998/2_isla_lvkm3r.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754059999/3_isla_pexf3o.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754059999/4_isla_gap92g.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060000/5_isla_amad7b.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060001/6_isla_wct66x.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060001/7_isla_ofrhbh.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060002/8_isla_z8k9tx.jpg",
+    ],
+    include: [
+      {
+        type: "Kickstart Your Day",
+        description:
+          "Begin your adventure with a full breakfast at the marina before boarding.",
+      },
+      {
+        type: "Sailing & Snorkeling",
+        description:
+          "Enjoy a ferry-style boat with open bar and snorkel the reef with included gear.",
+      },
+      {
+        type: "Island Escapade",
+        description:
+          "Spend over 3 hours on Isla Contoy with lunch and unlimited drinks, and visit the beautiful Playa Norte in Isla Mujeres.",
+      },
     ],
   },
   {
-    type: "private_tour",
-    path: "mujeres-island",
-    name: "Mujeres Island Deluxe",
+    type: "private_tour", //hecho
+    path: "isla-mujeres-catamaran-deluxe",
+    name: "Isla Mujeres Catamaran Deluxe",
     description:
-      "Visit the iconic ruins of Tulum by the sea and swim in a stunning cenote surrounded by jungle. Includes transportation, guide, and refreshments.",
-    foto: isla_mujeres_deluxe_logo,
+      "The ultimate Caribbean party on the sea. Picture this: you're sailing over turquoise waters, drink in hand, music playing, surrounded by amazing people, and the sun setting over the ocean. This is not just a tour, it’s an experience.",
+    foto: "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754059995/5_isla_twldel.jpg",
     images: [
-      isla_mujeres_1,
-      isla_mujeres_2,
-      isla_mujeres_3,
-      isla_mujeres_4,
-      isla_mujeres_5,
-      isla_mujeres_6,
-      isla_mujeres_7,
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754059994/1_isla_vsoe84.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754059994/2_isla_hifdkt.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754059994/3_isla_q0yvtb.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754059994/4_isla_iy9k6x.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754059995/5_isla_twldel.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754059996/6_isla_cqomrn.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754059997/7_isla_jmsgra.jpg",
+    ],
+    include: [
+      {
+        type: "Open Bar",
+        description: "unlimited margaritas, tequila, rum, vodka, and beers.",
+      },
+      {
+        type: "Premium Beach Club",
+        description:
+          "Access with loungers, umbrellas, chill area, and buffet (fish, chicken, veggies, pizza, and more).",
+      },
+      {
+        type: "Accesories",
+        description:
+          "Snorkeling at reefs and a sunken ship, with full gear included. Two hours at Playa Norte, one of the most iconic beaches in Mexico. Sunset vibes with music and celebration on board.",
+      },
+    ],
+    extra_fee_note:
+      "Perfect for birthdays, bachelor/ette parties, group fun or simply enjoying life.",
+  },
+  {
+    type: "private_tour", // hecho
+    path: "secret-spots",
+    name: "Secret Spots - Natural Adventure Tour",
+    description:
+      "Explore the sacred hidden gems of the Riviera Maya. Dive into the energy of untouched cenotes, natural lagoons, and quiet inlets surrounded by raw beauty. This tour reveals nature's best-kept secrets.",
+    foto: "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754059993/7_lugares_vy3ozy.jpg",
+    images: [
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754059989/1_lugares_wbma2i.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754059989/2_lugares_f7ijym.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754059990/3_lugares_gmj6wl.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754059991/4_lugares_pfw35l.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754059991/5_lugares_ce7alf.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754059992/6_lugares_glcoza.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754059993/7_lugares_vy3ozy.jpg",
+    ],
+    include: [
+      {
+        type: "Underwater Exploration",
+        description:
+          "Snorkel with marine life and access the beautiful Yal-Ku inlet for a unique aquatic experience.",
+      },
+      {
+        type: "Natural Wonders Tour",
+        description:
+          "Visit the stunning Kaan Luum Lagoon and explore both open and cave cenotes.",
+      },
+      {
+        type: "Comfort, Culture & Views",
+        description:
+          "Enjoy traditional lunch and drinks, roundtrip transportation, scenic photo stops, and guidance from an expert guide.",
+      },
     ],
   },
   {
-    type: "private_tour",
-    path: "secret-places",
-    name: "Secret Places",
-    description:
-      "Visit the iconic ruins of Tulum by the sea and swim in a stunning cenote surrounded by jungle. Includes transportation, guide, and refreshments.",
-    foto: lugares_secretos_logo,
-    images: [
-      lugares_1,
-      lugares_2,
-      lugares_3,
-      lugares_4,
-      lugares_5,
-      lugares_6,
-      lugares_7,
-    ],
-  },
-  {
-    type: "private_tour",
+    type: "private_tour", // hecho
     path: "sian-kaan",
     name: "Sian Kaan Deluxe",
     description:
-      "Visit the iconic ruins of Tulum by the sea and swim in a stunning cenote surrounded by jungle. Includes transportation, guide, and refreshments.",
-    foto: sian_kaan_deluxe_logo,
-    images: [sian_1, sian_2, sian_3, sian_4, sian_5, sian_6, sian_7],
+      "A hidden paradise for nature lovers. Embark on a breathtaking boat journey through the Sian Ka'an biosphere, spotting dolphins, turtles, manatees, and more. Swim in a natural pool and enjoy every moment in one of the Riviera Maya's most magical places.",
+    foto: "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754059988/1_sian_gqc5j9.jpg",
+    images: [
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754059988/1_sian_gqc5j9.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754059987/2_sian_jbbrqe.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754059988/3_sian_t0gypq.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754059988/4_sian_dnwrhd.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754059988/6_sian_jpllv7.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754059988/7_sian_gtasqa.jpg",
+    ],
+    include: [
+      {
+        type: "Seamless Transportation & Guidance",
+        description:
+          "Roundtrip transportation and a bilingual expert guide ensure a smooth and informative experience from start to finish.",
+      },
+      {
+        type: "Punta Allen Boat Adventure",
+        description:
+          "Enjoy a 3-hour boat tour through Punta Allen with opportunities to spot dolphins, birds, crocodiles, and even manatees.",
+      },
+      {
+        type: "Swim & Savor",
+        description:
+          "Take a refreshing swim in a natural pool and indulge in a tasty box lunch followed by a delicious meal with drinks.",
+      },
+    ],
   },
   {
-    type: "private_tour",
-    path: "tulum-casa-tortuga",
-    name: "Tulum Casa Tortuga",
+    type: "private_tour", //hecho
+    path: "tulum-deluxe-experience",
+    name: "Tulum Deluxe Experience",
     description:
-      "Visit the iconic ruins of Tulum by the sea and swim in a stunning cenote surrounded by jungle. Includes transportation, guide, and refreshments.",
-    foto: tulum_casa_tortuga_logo,
-    images: [tulum_1, tulum_2, tulum_3, tulum_4, tulum_5, tulum_6],
+      "Culture, nature, and tropical energy in one unforgettable day. Discover the Mayan ruins of Tulum with ocean views, swim in four magical cenotes, and recharge with a delicious buffet lunch. Bring your camera: this day is full of postcard-worthy moments.",
+    foto: "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060027/6_tulum_bxyytp.jpg",
+    images: [
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060025/1_tulum_cnbvnz.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060025/2_tulum_ae96cn.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060033/3_tulum_iiuqx4.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060026/4_tulum_z3gfr0.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060026/5_tulum_snzjep.jpg",
+      "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060027/6_tulum_bxyytp.jpg",
+    ],
+    include: [
+      {
+        type: "Tulum Experience",
+        description:
+          "Guided tour of the Tulum archaeological site, with time for photos at the iconic Tulum sign and the Mother Nature sculpture.",
+      },
+      {
+        type: "Cenote Adventure",
+        description:
+          "Swim in four different cenotes at Casa Tortuga park, surrounded by stunning natural scenery.",
+      },
+      {
+        type: "Comfort and Included Services",
+        description:
+          "Includes buffet lunch, drinks on board, bilingual guide, and roundtrip transportation.",
+      },
+    ],
   },
 ];
