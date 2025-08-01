@@ -5,40 +5,53 @@ import "@splidejs/react-splide/css/skyblue";
 import "./Slider.scss";
 import { videosSlider } from "../utils/data/videosSlider";
 
-
 export const Slider = () => {
-
   const splideRef = useRef(null);
+  const videoRefs = useRef([]);
 
   useEffect(() => {
     if (splideRef.current) {
       const splide = splideRef.current.splide;
 
-      const handleVisible = (slide) => {
+      const playVisible = (slide) => {
+        const video = videoRefs.current[slide.index];
         const textElement = slide.slide.querySelector(".slider-box");
+
+        if (video) {
+          video.load();
+          video.play().catch(() => {});
+        }
+
         if (textElement) {
           textElement.classList.add("active");
         }
       };
 
-      const handleHidden = (slide) => {
+      const pauseHidden = (slide) => {
+        const video = videoRefs.current[slide.index];
         const textElement = slide.slide.querySelector(".slider-box");
+
+        if (video) {
+          video.pause();
+          video.currentTime = 0;
+        }
+
         if (textElement) {
           textElement.classList.remove("active");
         }
       };
 
-      splide.on("visible", handleVisible);
-      splide.on("hidden", handleHidden);
+      splide.on("visible", playVisible);
+      splide.on("hidden", pauseHidden);
 
       const firstSlide = splide.Components.Slides.getAt(0);
       if (firstSlide) {
-        handleVisible(firstSlide);
+        playVisible(firstSlide);
       }
 
       return () => {
-        splide.off("visible", handleVisible);
-        splide.off("hidden", handleHidden);
+        splide.off("visible", playVisible);
+        splide.off("hidden", pauseHidden);
       };
     }
   }, []);
@@ -54,16 +67,24 @@ export const Slider = () => {
           autoplay: true,
           pauseOnFocus: false,
           pauseOnHover: false,
-          interval: 4000,
+          interval: 6000,
           arrows: false,
           pagination: false,
           rewind: true,
         }}
       >
-        {videosSlider.map((el) => (
+        {videosSlider.map((el, index) => (
           <SplideSlide key={el.name} className="slider-img">
             <div className="slider-content">
-              <video className="slider-media" autoPlay loop muted playsInline>
+              <video
+                ref={(elRef) => (videoRefs.current[index] = elRef)}
+                className="slider-media"
+                muted
+                loop
+                playsInline
+                preload="metadata"
+                poster={el.poster}
+              >
                 <source src={el.src} type="video/mp4" />
               </video>
               <div className="slider-box">
