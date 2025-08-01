@@ -104,7 +104,7 @@ export const Experience = () => {
         <section className="experience-fleet">
           <h2 className="experience-fleetTitle">Fleet</h2>
           {fleet.slice(0, 5).map((item, i) => (
-            <CardFleet key={i} {...item} />
+            <CardFleet key={i} service={name} {...item} />
           ))}
         </section>
       )}
@@ -123,9 +123,14 @@ export const Experience = () => {
             unforgettable experience?
           </strong>
         </h2>
-        <button type="button" className="experience-ctaButton">
+        <a
+          className="experience-ctaButton"
+          target="_blank"
+          rel="noreferrer"
+          href={`https://wa.me/529841794344?text=Hi%20Arcanova%20team,%20I'd%20like%20to%20ask%20you%20about%20${name}...`}
+        >
           Book Now
-        </button>
+        </a>
       </section>
     </main>
   );

@@ -1,6 +1,6 @@
 import { useLocation, useNavigate } from "react-router-dom";
-import logo from "../../assets/images/logo-nuevo.png";
-import nombreLogo from "../../assets/images/nombre-logo.png";
+// import logo from "../../assets/images/logo-nuevo.png";
+// import nombreLogo from "../../assets/images/nombre-logo.png";
 import "./Footer.scss";
 import { handleScrollOrNavigate } from "../utils/otros/handleScrollOrNavigate";
 
@@ -36,7 +36,7 @@ export const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              info@arcanova.com
+              info@arcanova.com.mx
             </a>
           </li>
         </ul>
@@ -64,8 +64,8 @@ export const Footer = () => {
           </li>
         </ul>
         <div className="footer-logo">
-          <img className="footer-img" src={logo} alt="logo" />
-          <img className="footer-nombreImg" src={nombreLogo} alt="nombre-logo" />
+          <img className="footer-img" src="https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060943/logo-nuevo_x3ybxg.png" alt="logo" />
+          <img className="footer-nombreImg" src="https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060945/nombre-logo_tzlwum.png" alt="nombre-logo" />
         </div>
       </div>
       <p className="footer-sign">

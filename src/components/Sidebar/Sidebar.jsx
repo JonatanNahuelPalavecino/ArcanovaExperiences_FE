@@ -8,8 +8,8 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import { useLocation, useNavigate } from "react-router-dom";
 import MenuOpenIcon from '@mui/icons-material/MenuOpen';
-import logo from "../../assets/images/logo-nuevo.png"
-import nombreLogo from "../../assets/images/nombre-logo.png"
+// import logo from "../../assets/images/logo-nuevo.png"
+// import nombreLogo from "../../assets/images/nombre-logo.png"
 import "./Sidebar.scss"
 import { handleScrollOrNavigate } from "../utils/otros/handleScrollOrNavigate";
 
@@ -62,12 +62,12 @@ export const Sidebar = ({ open, setOpen, navItems }) => {
         <div className="sidebar-box">
           <img
             className="sidebar-img"
-            src={logo}
+            src="https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060943/logo-nuevo_x3ybxg.png"
             alt="logo"
           />
           <img
             className="sidebar-nombreImg"
-            src={nombreLogo}
+            src="https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060945/nombre-logo_tzlwum.png"
             alt="logo"
           />
         </div>

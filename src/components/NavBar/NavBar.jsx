@@ -10,8 +10,8 @@ import GroupIcon from '@mui/icons-material/Group'
 import HomeIcon from "@mui/icons-material/Home";
 import ReviewsIcon from '@mui/icons-material/Reviews'
 // import logo from "../../assets/images/logo.PNG";
-import logo from "../../assets/images/logo-nuevo.png";
-import nombreLogo from "../../assets/images/nombre-logo.png";
+// import logo from "../../assets/images/logo-nuevo.png";
+// import nombreLogo from "../../assets/images/nombre-logo.png";
 import "./NavBar.scss";
 import { handleScrollOrNavigate } from "../utils/otros/handleScrollOrNavigate";
 
@@ -50,10 +50,10 @@ const navItems = [
           <div className="nav-content">
             <div className="nav-logo">
               <div className="nav-imgBox" onClick={() => handleScrollOrNavigate("home", navigate, location)}>
-                <img className="nav-img" src={logo} alt="logo" />
+                <img className="nav-img" src="https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060943/logo-nuevo_x3ybxg.png" alt="logo" />
               </div>
               <div className="nav-nameBox">
-                <img className="nav-name" src={nombreLogo} alt="nombre-logo" />
+                <img className="nav-name" src="https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060945/nombre-logo_tzlwum.png" alt="nombre-logo" />
               </div>
             </div>
             <nav className="nav-enlace">
