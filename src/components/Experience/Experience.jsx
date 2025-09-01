@@ -13,7 +13,7 @@ export const Experience = () => {
   const { experience } = useParams();
 
   const e = services.find((e) => e.path === experience);
-  const { extra_fee_note, name, images, description, include, options, fleet } =
+  const { extra_fee_note, name, images, description, include, options, fleet, type } =
     e;
 
   useEffect(() => {
@@ -115,12 +115,18 @@ export const Experience = () => {
         </section>
       )}
 
-      {fleet?.length > 0 && (
+      {fleet?.length > 0  && (
         <section className="experience-fleet">
           <h2 className="experience-fleetTitle">Fleet</h2>
           {fleet.slice(0, 5).map((item, i) => (
             <CardFleet key={i} service={name} {...item} />
           ))}
+        </section>
+      )}
+
+      {type === "private_tour"  && (
+        <section className="experience-fleet">
+          <CardFleet name={name} images={images} />
         </section>
       )}
 
