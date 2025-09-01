@@ -18,7 +18,7 @@ export const CardFleet = ({ service, name, capacity, prices, images }) => {
 
   return (
     <div className="fleet">
-      <h4 className="fleet-title">{name}</h4>
+      {name && <h4 className="fleet-title">{name}</h4>}
 
       <div className="fleet-images">
         <div className="fleet-grid">
@@ -53,21 +53,23 @@ export const CardFleet = ({ service, name, capacity, prices, images }) => {
             ))}
           </Splide>
         </div>
-        <div className="fleet-info">
-          <div className="fleet-infoBox">
-            <p className="fleet-infoBoxDescription">
-              Capacity: {capacity} people
-            </p>
-            <a
-              className="fleet-infoBtn"
-              target="_blank"
-              rel="noreferrer"
-              href={`https://wa.me/529841794344?text=Hi%20Arcanova%20team,%20I'd%20like%20to%20ask%20you%20about%20${service}%20in%20yacht%20${name}...`}
-            >
-              View More
-            </a>
+        {capacity && (
+          <div className="fleet-info">
+            <div className="fleet-infoBox">
+              <p className="fleet-infoBoxDescription">
+                Capacity: {capacity} people
+              </p>
+              <a
+                className="fleet-infoBtn"
+                target="_blank"
+                rel="noreferrer"
+                href={`https://wa.me/529841794344?text=Hi%20Arcanova%20team,%20I'd%20like%20to%20ask%20you%20about%20${service}%20in%20yacht%20${name}...`}
+              >
+                View More
+              </a>
+            </div>
           </div>
-        </div>
+        )}
       </div>
     </div>
   );
