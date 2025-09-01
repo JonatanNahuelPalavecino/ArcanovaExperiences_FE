@@ -208,35 +208,87 @@ export const services = [
     fleet: [
       {
         id: 6,
-        name: "Tata 44 ft",
+        name: "sunny Boat",
+        capacity: 8,
+        prices: {
+          "6_hours": null,
+          "8_hours": null,
+        },
+        images: [
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1756749629/IMG_8518_iucsvj.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1756749630/IMG_8525_jg6g2y.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1756749630/IMG_8524_onis1q.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1756749629/IMG_8523_rnnmwn.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1756749628/IMG_8517_fnky3z.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1756749629/IMG_8521_i8tzkm.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1756749629/IMG_8520_wfhafr.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1756749628/IMG_8519_w2s6fy.jpg"
+        ]
+      },
+      {
+        id: 7,
+        name: "Tata 46 ft",
         capacity: 15,
         prices: {
           "6_hours": 16000,
           "8_hours": 18000,
         },
+        images: [
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1756749662/PHOTO-2025-03-15-11-51-45-2_xkoaty.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1756749661/PHOTO-2025-03-15-11-51-45-4_omznnm.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1756749661/PHOTO-2025-03-15-11-51-44_nhvgad.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1756749660/PHOTO-2025-03-15-11-51-46-3_uv4uxe.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1756749659/PHOTO-2025-03-15-11-51-45-5_jg4gyz.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1756749658/PHOTO-2025-03-15-11-51-46_b2xo7b.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1756749657/PHOTO-2025-03-15-11-51-46-4_dxkqmp.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1756749657/PHOTO-2025-03-15-11-51-46-2_evtvyy.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1756749657/PHOTO-2025-03-15-11-51-45_ncuzvy.jpg"
+        ]
       },
       {
-        id: 7,
-        name: "Sea Mami 52 ft",
-        capacity: 25,
+        id: 8,
+        name: "Sea Mami 54 ft",
+        capacity: 20,
         prices: {
           "6_hours": 26500,
           "8_hours": 28500,
         },
+        images: [
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1756749776/d54f0f86-76a0-4abb-b81f-992453a88841_peuoes.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1756749774/c5f0be9e-ddb5-4ae2-9f8e-a494a8398703_1_iyqskn.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1756749775/cd02035a-0ae5-4d82-a9c4-2ba8d5b792a1_1_ck1udu.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1756749773/c1309e7c-4cbd-42d4-9313-e981f204a99a_2_dggwsa.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1756749772/9e9ee091-410c-4869-a626-a11dd02c4534_qujy2d.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1756749769/8f6002a2-eb34-4e3b-9661-a5c7c45a8868_1_sv6yq8.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1756749768/63da6112-e921-400c-a054-4f134492d7a6_xhtcsu.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1756749767/18ad4dae-aa77-47cb-bf45-542c2337c10c_f26mbj.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1756749767/3288b236-7ff8-40c5-9d97-bbdc6908e01d_1_ifzgdk.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1756749764/1f9482dd-5c0a-4994-9e76-f282a7b0a368_xjrs1s.jpg"
+        ]
       },
       {
-        id: 8,
-        name: "Black Mia 43 ft",
+        id: 9,
+        name: "Lux Black Mia 46 ft",
         capacity: 15,
         prices: {
           "6_hours": 17500,
           "8_hours": 19500,
         },
+        images: [
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1756749703/WhatsApp_Image_2025-04-21_at_8.57.31_PM_4_r7g3hr.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1756749704/WhatsApp_Image_2025-04-21_at_8.57.31_PM_xrhpi9.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1756749702/WhatsApp_Image_2025-04-21_at_8.57.31_PM_3_trptjg.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1756749702/WhatsApp_Image_2025-04-21_at_8.57.31_PM_2_pqxlky.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1756749699/WhatsApp_Image_2025-04-21_at_8.57.30_PM_4_l74agn.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1756749698/WhatsApp_Image_2025-04-21_at_8.57.30_PM_3_vkexgy.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1756749697/WhatsApp_Image_2025-04-21_at_8.57.31_PM_1_pjr5mh.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1756749697/WhatsApp_Image_2025-04-21_at_8.57.30_PM_2_iib0eo.jpg"
+        ]
       },
       {
-        id: 9,
+        id: 10,
         name: "Paradise 58 ft",
-        capacity: 22,
+        capacity: 20,
         prices: {
           "6_hours": 25000,
           "8_hours": 27000,
@@ -252,13 +304,23 @@ export const services = [
         ],
       },
       {
-        id: 10,
+        id: 11,
         name: "Oasis 40 ft",
-        capacity: 10,
+        capacity: 12,
         prices: {
           "6_hours": null,
           "8_hours": null,
         },
+        images: [
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1756749734/2c82f0e3-662c-48e5-834a-4e26d2c52711_boq30o.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1756749739/6d7f7b85-cf4e-4a87-83a0-60381d6f0839_sbjxii.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1756749743/eb382780-f56e-4d6a-8121-ee84cbed93b5_gkzm4h.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1756749742/f34c9cbe-5673-4d94-b2a8-ff8d81e532c3_lte8ny.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1756749742/e0ebee62-fc08-4810-94aa-c437ac2c97d3_frqecb.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1756749739/6d7f7b85-cf4e-4a87-83a0-60381d6f0839_sbjxii.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1756749740/75bb698a-b392-40ea-8f1e-a205703c1f5d_miktcu.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1756749741/a8d4f616-e433-4456-b65d-8b32c4b96acf_infedb.jpg"
+        ]
       },
     ],
     extra_fee_note:
@@ -299,7 +361,7 @@ export const services = [
   {
     type: "private_tour", // hecho
     path: "bacalar",
-    name: "Bacalar - Seven Colors Laggon Experience",
+    name: "Bacalar - Seven Colors Lagoon Experience",
     description:
       "A peaceful escape of color and calm. Discover the magic of Bacalar, paddle over rainbow-colored water, and unwind in a dreamy beach club setting. A perfect reset for body and soul.",
     foto: "https://res.cloudinary.com/dfwjsmhni/image/upload/v1754060019/6_bacalar_bbvcna.jpg",
