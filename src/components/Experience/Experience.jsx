@@ -118,9 +118,12 @@ export const Experience = () => {
       {fleet?.length > 0  && (
         <section className="experience-fleet">
           <h2 className="experience-fleetTitle">Fleet</h2>
-          {fleet.slice(0, 5).map((item, i) => (
+          {fleet.map((item, i) => (
             <CardFleet key={i} service={name} {...item} />
           ))}
+          {/* {fleet.slice(0, 5).map((item, i) => (
+            <CardFleet key={i} service={name} {...item} />
+          ))} */}
         </section>
       )}
 

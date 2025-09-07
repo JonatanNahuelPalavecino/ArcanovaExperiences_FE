@@ -322,6 +322,29 @@ export const services = [
           "https://res.cloudinary.com/dfwjsmhni/image/upload/v1756749741/a8d4f616-e433-4456-b65d-8b32c4b96acf_infedb.jpg"
         ]
       },
+      {
+        id: 12,
+        name: "Atenea",
+        capacity: 15,
+        prices: {
+          "6_hours": null,
+          "8_hours": null,
+        },
+        images: [
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1757269239/b1792c3a-ec20-4ded-8337-81632ff4dc54_jcppv6.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1757269241/daad1262-b224-4981-a73b-172308dda229_qzruj6.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1757269240/cdf6f824-ac4d-441f-803c-9f61a54ee683_jnol5k.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1757269238/afa1f553-3d89-4423-97aa-6b8bb28e8f5e_yfp3es.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1757269236/740c5615-a4cb-402c-b1ff-2fcff550bbc8_cno3hl.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1757269237/454019cc-db1b-45c9-966c-a4aa966303a6_an1w5p.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1757269236/329d0c3a-1c0d-4f2f-b892-dfafa47c5670_ktrmae.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1757269236/ac9892ab-e386-4a5c-8927-c49a2c788e79_vjrxsg.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1757269235/27ff618d-f491-42e6-896a-9d783d586813_uftxjx.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1757269235/5c1f7fe1-6c70-49e4-a79b-d6a5817b6b52_vii9xn.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1757269235/06bef0d2-dff3-4d95-aeaf-1679055fcb92_zehelx.jpg",
+          "https://res.cloudinary.com/dfwjsmhni/image/upload/v1757269235/8f3fec89-0c80-4edb-9637-a63c70ac17eb_cjapyl.jpg",
+        ]
+      },
     ],
     extra_fee_note:
       "Optional services include live DJ, decoration, open bar, private transport, photography/video, and buffet service. Ask for birthday experiences too!",
